@@ -1,0 +1,17 @@
+# Python's automatic caches (re-created on every run)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# virtual environment (each computer creates its own: python -m venv .venv)
+.venv/
+venv/
+
+# smoke-test output of `python main.py all --quick` (never used for reporting)
+results_quick/
+
+# editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

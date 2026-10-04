@@ -1,0 +1,43 @@
+{
+  "n_nodes": 200,
+  "area_width": 100.0,
+  "area_height": 100.0,
+  "initial_energy": 0.5,
+  "bs_x": 50.0,
+  "bs_y": 50.0,
+  "packet_bits": 4000,
+  "control_bits": 0,
+  "rounds": 2000,
+  "ch_percentage": 0.05,
+  "count_tolerance": 0.5,
+  "ch_energy_threshold": 1.0,
+  "opt_iterations": 30,
+  "gwo": {
+    "population": 20
+  },
+  "abc": {
+    "colony_size": 20,
+    "limit": 10
+  },
+  "hybrid": {
+    "budget_share": 0.5,
+    "transfer_size": 3,
+    "feedback": true
+  },
+  "weights": {
+    "energy": 0.3,
+    "intra_distance": 0.25,
+    "ch_bs_distance": 0.2,
+    "balance": 0.15,
+    "ch_count": 0.1
+  },
+  "energy": {
+    "e_elec": 5e-08,
+    "e_fs": 1e-11,
+    "e_mp": 1.3e-15,
+    "e_da": 5e-09
+  },
+  "invalid_penalty": 10.0,
+  "checkpoint_round": 500,
+  "seed": 42
+}

@@ -1,0 +1,1679 @@
+{
+  "n_nodes=50": {
+    "n_nodes": 50,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "n_nodes=100": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "n_nodes=150": {
+    "n_nodes": 150,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "n_nodes=200": {
+    "n_nodes": 200,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "area=50": {
+    "n_nodes": 100,
+    "area_width": 50.0,
+    "area_height": 50.0,
+    "initial_energy": 0.5,
+    "bs_x": 25.0,
+    "bs_y": 25.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "area=100": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "area=150": {
+    "n_nodes": 100,
+    "area_width": 150.0,
+    "area_height": 150.0,
+    "initial_energy": 0.5,
+    "bs_x": 75.0,
+    "bs_y": 75.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "area=200": {
+    "n_nodes": 100,
+    "area_width": 200.0,
+    "area_height": 200.0,
+    "initial_energy": 0.5,
+    "bs_x": 100.0,
+    "bs_y": 100.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "initial_energy=0.25": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.25,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "initial_energy=0.5": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "initial_energy=1.0": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 1.0,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "ch_percentage=0.03": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.03,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "ch_percentage=0.05": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "ch_percentage=0.08": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.08,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "ch_percentage=0.1": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.1,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "bs_position=(50,50)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "bs_position=(50,100)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 100.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "bs_position=(50,150)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 150.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "bs_position=(0,0)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 0.0,
+    "bs_y": 0.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "gwo_population=10": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 10
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "gwo_population=20": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "gwo_population=30": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 30
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "gwo_population=40": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 40
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "abc_colony=10": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 10,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "abc_colony=20": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "abc_colony=30": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 30,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "abc_colony=40": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 40,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "iterations=10": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 10,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "iterations=20": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 20,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "iterations=30": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "iterations=50": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 50,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "weights=default (.30/.25/.20/.15/.10)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "weights=equal (.20 each)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.2,
+      "intra_distance": 0.2,
+      "ch_bs_distance": 0.2,
+      "balance": 0.2,
+      "ch_count": 0.2
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "weights=energy-heavy (.50/.15/.15/.10/.10)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.5,
+      "intra_distance": 0.15,
+      "ch_bs_distance": 0.15,
+      "balance": 0.1,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "weights=distance-heavy (.15/.35/.30/.10/.10)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.15,
+      "intra_distance": 0.35,
+      "ch_bs_distance": 0.3,
+      "balance": 0.1,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "weights=balance-heavy (.20/.20/.15/.35/.10)": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.2,
+      "intra_distance": 0.2,
+      "ch_bs_distance": 0.15,
+      "balance": 0.35,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "ch_energy_threshold=0.0": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 0.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "ch_energy_threshold=0.5": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 0.5,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  },
+  "ch_energy_threshold=1.0": {
+    "n_nodes": 100,
+    "area_width": 100.0,
+    "area_height": 100.0,
+    "initial_energy": 0.5,
+    "bs_x": 50.0,
+    "bs_y": 50.0,
+    "packet_bits": 4000,
+    "control_bits": 0,
+    "rounds": 2000,
+    "ch_percentage": 0.05,
+    "count_tolerance": 0.5,
+    "ch_energy_threshold": 1.0,
+    "opt_iterations": 30,
+    "gwo": {
+      "population": 20
+    },
+    "abc": {
+      "colony_size": 20,
+      "limit": 10
+    },
+    "hybrid": {
+      "budget_share": 0.5,
+      "transfer_size": 3,
+      "feedback": true
+    },
+    "weights": {
+      "energy": 0.3,
+      "intra_distance": 0.25,
+      "ch_bs_distance": 0.2,
+      "balance": 0.15,
+      "ch_count": 0.1
+    },
+    "energy": {
+      "e_elec": 5e-08,
+      "e_fs": 1e-11,
+      "e_mp": 1.3e-15,
+      "e_da": 5e-09
+    },
+    "invalid_penalty": 10.0,
+    "checkpoint_round": 500,
+    "seed": 42
+  }
+}

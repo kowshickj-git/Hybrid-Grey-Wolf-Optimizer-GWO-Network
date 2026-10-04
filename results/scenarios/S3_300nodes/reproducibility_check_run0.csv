@@ -1,0 +1,33 @@
+algorithm,field,saved,resimulated,identical
+LEACH,fnd,941.0,941.0,True
+LEACH,hnd,1170.0,1170.0,True
+LEACH,lnd,1518.0,1518.0,True
+LEACH,node_rounds,352982.0,352982.0,True
+LEACH,throughput_packets,348684.0,348684.0,True
+LEACH,packets_generated,353282.0,353282.0,True
+LEACH,residual_energy_cp,86.4665647818748,86.4665647818748,True
+LEACH,final_fitness,0.462639942657659,0.46263994265765906,True
+GWO,fnd,1175.0,1175.0,True
+GWO,hnd,1191.0,1191.0,True
+GWO,lnd,1331.0,1331.0,True
+GWO,node_rounds,356736.0,356736.0,True
+GWO,throughput_packets,355148.0,355148.0,True
+GWO,packets_generated,357036.0,357036.0,True
+GWO,residual_energy_cp,86.96413209055882,86.96413209055882,True
+GWO,final_fitness,0.2127791974714005,0.21277919747140056,True
+ABC,fnd,1174.0,1174.0,True
+ABC,hnd,1188.0,1188.0,True
+ABC,lnd,1259.0,1259.0,True
+ABC,node_rounds,356279.0,356279.0,True
+ABC,throughput_packets,355459.0,355459.0,True
+ABC,packets_generated,356579.0,356579.0,True
+ABC,residual_energy_cp,86.8952366590917,86.8952366590917,True
+ABC,final_fitness,0.2199217341771894,0.21992173417718944,True
+Hybrid GWO-ABC,fnd,1176.0,1176.0,True
+Hybrid GWO-ABC,hnd,1189.0,1189.0,True
+Hybrid GWO-ABC,lnd,1236.0,1236.0,True
+Hybrid GWO-ABC,node_rounds,356414.0,356414.0,True
+Hybrid GWO-ABC,throughput_packets,355596.0,355596.0,True
+Hybrid GWO-ABC,packets_generated,356714.0,356714.0,True
+Hybrid GWO-ABC,residual_energy_cp,86.92872203452278,86.92872203452278,True
+Hybrid GWO-ABC,final_fitness,0.2064244011876976,0.2064244011876976,True

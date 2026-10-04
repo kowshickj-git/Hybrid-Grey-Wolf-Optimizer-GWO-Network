@@ -1,0 +1,24 @@
+{
+  "title": "Algorithm comparison",
+  "description": "",
+  "algorithms": [
+    "Random",
+    "LEACH",
+    "GWO",
+    "ABC",
+    "Hybrid GWO-ABC"
+  ],
+  "runs": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "proposed": "Hybrid GWO-ABC",
+  "created": "2026-10-04T12:50:18",
+  "elapsed_s": 86.0,
+  "python": "3.12.10",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed_rule": "run r uses deployment and algorithm seed config.seed + r"
+}

@@ -1,0 +1,106 @@
+metric,label,baseline,higher_is_better,proposed_mean,baseline_mean,improvement_pct,p_value,cliffs_delta,effect,n_pairs,p_holm,significant,verdict
+fnd,FND,GWO only,True,1127.7,1126.5,0.10652463382157527,0.1640625,0.1,negligible,10,0.65625,False,no significant difference
+fnd,FND,ABC only,True,1127.7,1123.9,0.3381083726310129,0.0703125,0.27,small,10,0.3515625,False,no significant difference
+fnd,FND,GWO->ABC,True,1127.7,1126.4,0.11541193181817777,0.52734375,0.11,negligible,10,1.0,False,no significant difference
+fnd,FND,ABC->GWO,True,1127.7,1127.7,0.0,0.99609375,0.0,negligible,10,1.0,False,no significant difference
+fnd,FND,Hybrid w/o energy,True,1127.7,1116.1,1.0393333930651498,0.001953125,0.62,large,10,0.013671875,True,proposed better
+fnd,FND,Hybrid w/o distance,True,1127.7,1131.7,-0.35345056110276574,0.005859375,-0.36,medium,10,0.03515625,True,proposed worse
+fnd,FND,Hybrid w/o balance,True,1127.7,1129.5,-0.15936254980079279,0.2578125,-0.13,negligible,10,0.7734375,False,no significant difference
+hnd,HND,GWO only,True,1137.5,1137.5,0.0,0.6875,-0.02,negligible,10,1.0,False,no significant difference
+hnd,HND,ABC only,True,1137.5,1137.5,0.0,0.7421875,0.04,negligible,10,1.0,False,no significant difference
+hnd,HND,GWO->ABC,True,1137.5,1137.4,0.00879198171267004,0.796875,0.03,negligible,10,1.0,False,no significant difference
+hnd,HND,ABC->GWO,True,1137.5,1137.2,0.02638058389025277,0.359375,0.08,negligible,10,1.0,False,no significant difference
+hnd,HND,Hybrid w/o energy,True,1137.5,1132.4,0.45037089367713784,0.001953125,0.39,medium,10,0.013671875,True,proposed better
+hnd,HND,Hybrid w/o distance,True,1137.5,1139.7,-0.1930332543651878,0.046875,-0.2,small,10,0.234375,False,no significant difference
+hnd,HND,Hybrid w/o balance,True,1137.5,1145.5,-0.6983849847228285,0.001953125,-0.62,large,10,0.013671875,True,proposed worse
+lnd,LND,GWO only,True,1158.1,1161.8,-0.31847133757962176,0.0703125,-0.25,small,10,0.3515625,False,no significant difference
+lnd,LND,ABC only,True,1158.1,1165.4,-0.626394371031421,0.16796875,-0.47,medium,10,0.671875,False,no significant difference
+lnd,LND,GWO->ABC,True,1158.1,1161.2,-0.2669652084051099,0.421875,-0.16,small,10,1.0,False,no significant difference
+lnd,LND,ABC->GWO,True,1158.1,1159.6,-0.12935494998275268,0.640625,-0.1,negligible,10,1.0,False,no significant difference
+lnd,LND,Hybrid w/o energy,True,1158.1,1302.0,-11.05222734254993,0.001953125,-0.96,large,10,0.013671875,True,proposed worse
+lnd,LND,Hybrid w/o distance,True,1158.1,1149.5,0.7481513701609316,0.01171875,0.47,medium,10,0.0703125,False,no significant difference
+lnd,LND,Hybrid w/o balance,True,1158.1,1155.3,0.24236129143944904,0.865234375,0.07,negligible,10,1.0,False,no significant difference
+node_rounds,Node-rounds,GWO only,True,113753.9,113777.5,-0.020742238140234952,0.431640625,-0.02,negligible,10,1.0,False,no significant difference
+node_rounds,Node-rounds,ABC only,True,113753.9,113814.7,-0.05342016453059483,0.130859375,-0.08,negligible,10,0.5234375,False,no significant difference
+node_rounds,Node-rounds,GWO->ABC,True,113753.9,113738.8,0.013276032453297615,0.826171875,0.04,negligible,10,1.0,False,no significant difference
+node_rounds,Node-rounds,ABC->GWO,True,113753.9,113751.1,0.0024615146578699973,1.0,0.0,negligible,10,1.0,False,no significant difference
+node_rounds,Node-rounds,Hybrid w/o energy,True,113753.9,113288.3,0.4109868362399217,0.001953125,0.38,medium,10,0.013671875,True,proposed better
+node_rounds,Node-rounds,Hybrid w/o distance,True,113753.9,113927.8,-0.15264053198605496,0.04296875,-0.17,small,10,0.21484375,False,no significant difference
+node_rounds,Node-rounds,Hybrid w/o balance,True,113753.9,114389.5,-0.555645404517028,0.001953125,-0.58,large,10,0.013671875,True,proposed worse
+residual_energy_cp,Residual Energy,GWO only,True,28.10458899407299,28.11472772902345,-0.036062006533297136,0.375,-0.08,negligible,10,1.0,False,no significant difference
+residual_energy_cp,Residual Energy,ABC only,True,28.10458899407299,28.11762084256717,-0.04634762154005124,0.048828125,-0.1,negligible,10,0.244140625,False,no significant difference
+residual_energy_cp,Residual Energy,GWO->ABC,True,28.10458899407299,28.106688317101067,-0.0074691226671456815,0.921875,-0.06,negligible,10,1.0,False,no significant difference
+residual_energy_cp,Residual Energy,ABC->GWO,True,28.10458899407299,28.10048652283412,0.014599289003541396,0.625,0.02,negligible,10,1.0,False,no significant difference
+residual_energy_cp,Residual Energy,Hybrid w/o energy,True,28.10458899407299,28.07700968923457,0.09822735805443306,0.005859375,0.18,small,10,0.03515625,True,proposed better
+residual_energy_cp,Residual Energy,Hybrid w/o distance,True,28.10458899407299,28.101102491957107,0.012406994056128296,0.845703125,0.02,negligible,10,1.0,False,no significant difference
+residual_energy_cp,Residual Energy,Hybrid w/o balance,True,28.10458899407299,28.160317584331136,-0.1978975915000089,0.00390625,-0.3,small,10,0.02734375,True,proposed worse
+energy_consumed_cp,Energy Consumption,GWO only,False,21.895411005927006,21.88527227097655,-0.04632674807478272,0.375,-0.08,negligible,10,1.0,False,no significant difference
+energy_consumed_cp,Energy Consumption,ABC only,False,21.895411005927006,21.88237915743283,-0.059554074995311894,0.048828125,-0.1,negligible,10,0.244140625,False,no significant difference
+energy_consumed_cp,Energy Consumption,GWO->ABC,False,21.895411005927006,21.893311682898933,-0.009588878368332146,0.921875,-0.06,negligible,10,1.0,False,no significant difference
+energy_consumed_cp,Energy Consumption,ABC->GWO,False,21.895411005927006,21.899513477165875,0.018733161552412145,0.625,0.02,negligible,10,1.0,False,no significant difference
+energy_consumed_cp,Energy Consumption,Hybrid w/o energy,False,21.895411005927006,21.92299031076543,0.12580083486550123,0.005859375,0.18,small,10,0.03515625,True,proposed better
+energy_consumed_cp,Energy Consumption,Hybrid w/o distance,False,21.895411005927006,21.898897508042896,0.01592090247744318,0.845703125,0.02,negligible,10,1.0,False,no significant difference
+energy_consumed_cp,Energy Consumption,Hybrid w/o balance,False,21.895411005927006,21.839682415668864,-0.2551712483610055,0.00390625,-0.3,small,10,0.02734375,True,proposed worse
+throughput_packets,Throughput,GWO only,True,113636.6,113713.1,-0.0672745708278114,0.037109375,-0.08,negligible,10,0.1484375,False,no significant difference
+throughput_packets,Throughput,ABC only,True,113636.6,113780.4,-0.12638380599821092,0.02734375,-0.14,negligible,10,0.13671875,False,no significant difference
+throughput_packets,Throughput,GWO->ABC,True,113636.6,113667.0,-0.026744789604717444,0.556640625,-0.06,negligible,10,1.0,False,no significant difference
+throughput_packets,Throughput,ABC->GWO,True,113636.6,113696.0,-0.05224458204333853,0.16015625,-0.08,negligible,10,0.48046875,False,no significant difference
+throughput_packets,Throughput,Hybrid w/o energy,True,113636.6,113070.3,0.500838858656962,0.001953125,0.44,medium,10,0.013671875,True,proposed better
+throughput_packets,Throughput,Hybrid w/o distance,True,113636.6,113676.0,-0.03465991062316952,0.556640625,-0.04,negligible,10,1.0,False,no significant difference
+throughput_packets,Throughput,Hybrid w/o balance,True,113636.6,114243.6,-0.5313207917117457,0.001953125,-0.52,large,10,0.013671875,True,proposed worse
+pdr,PDR,GWO only,True,0.9980914725502833,0.9985574807937553,-0.04666814404129762,0.048828125,-0.46,medium,10,0.1953125,False,no significant difference
+pdr,PDR,ABC only,True,0.9980914725502833,0.9988209748486193,-0.07303634151721518,0.01953125,-0.7,large,10,0.1171875,False,no significant difference
+pdr,PDR,GWO->ABC,True,0.9980914725502833,0.9984925920587633,-0.04017250720437784,0.275390625,-0.4,medium,10,0.55078125,False,no significant difference
+pdr,PDR,ABC->GWO,True,0.9980914725502833,0.9986385411551042,-0.05478144316241958,0.083984375,-0.52,large,10,0.251953125,False,no significant difference
+pdr,PDR,Hybrid w/o energy,True,0.9980914725502833,0.9971956766820806,0.08983150339993352,0.01953125,0.52,large,10,0.1171875,False,no significant difference
+pdr,PDR,Hybrid w/o distance,True,0.9980914725502833,0.9969163161897396,0.11787913804391958,0.001953125,0.8,large,10,0.013671875,True,proposed better
+pdr,PDR,Hybrid w/o balance,True,0.9980914725502833,0.9978532316223504,0.02387534763459713,0.431640625,0.26,small,10,0.55078125,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,GWO only,False,22.545793246086824,22.46475218719882,-0.36074762015039974,0.322265625,-0.1,negligible,10,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,ABC only,False,22.545793246086824,22.43958530846697,-0.4733061514277564,0.037109375,-0.08,negligible,10,0.185546875,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,GWO->ABC,False,22.545793246086824,22.514843775430812,-0.13746251568391976,0.6953125,-0.02,negligible,10,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,ABC->GWO,False,22.545793246086824,22.568158844606423,0.09910245081841991,0.845703125,0.02,negligible,10,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,Hybrid w/o energy,False,22.545793246086824,22.7451162202479,0.8763330652214409,0.005859375,0.12,negligible,10,0.041015625,True,proposed better
+avg_cluster_distance,Avg. Cluster Distance,Hybrid w/o distance,False,22.545793246086824,22.60915718505727,0.2802578550443498,0.4921875,0.06,negligible,10,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,Hybrid w/o balance,False,22.545793246086824,22.225794726181668,-1.4397618795975007,0.009765625,-0.18,small,10,0.05859375,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,GWO only,False,37.862936262686404,37.92544371128016,0.16481665730693726,0.064453125,0.12,negligible,10,0.322265625,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,ABC only,False,37.862936262686404,37.95579084188023,0.24463876824658584,0.064453125,0.06,negligible,10,0.322265625,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,GWO->ABC,False,37.862936262686404,37.875615558228304,0.03347614383298411,0.845703125,-0.0,negligible,10,0.86328125,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,ABC->GWO,False,37.862936262686404,37.89145317259489,0.075259478116597,0.431640625,0.04,negligible,10,0.86328125,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,Hybrid w/o energy,False,37.862936262686404,37.81742543516258,-0.1203435374040677,0.10546875,-0.08,negligible,10,0.322265625,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,Hybrid w/o distance,False,37.862936262686404,37.675106404713695,-0.49855163235639455,0.00390625,-0.14,negligible,10,0.0234375,True,proposed worse
+avg_ch_bs_distance,Avg. CH-BS Distance,Hybrid w/o balance,False,37.862936262686404,38.75509094353005,2.302032221118001,0.001953125,0.44,medium,10,0.013671875,True,proposed better
+cluster_imbalance,Cluster Imbalance,GWO only,False,0.148143089539898,0.17596568163671064,15.81137403499717,0.001953125,0.98,large,10,0.013671875,True,proposed better
+cluster_imbalance,Cluster Imbalance,ABC only,False,0.148143089539898,0.157320699282711,5.833694983976972,0.001953125,0.64,large,10,0.013671875,True,proposed better
+cluster_imbalance,Cluster Imbalance,GWO->ABC,False,0.148143089539898,0.15518901475199362,4.540221628029321,0.001953125,0.54,large,10,0.013671875,True,proposed better
+cluster_imbalance,Cluster Imbalance,ABC->GWO,False,0.148143089539898,0.1643821069501124,9.878823012739895,0.001953125,0.86,large,10,0.013671875,True,proposed better
+cluster_imbalance,Cluster Imbalance,Hybrid w/o energy,False,0.148143089539898,0.15063536172241726,1.6545067200833576,0.275390625,0.14,negligible,10,0.275390625,False,no significant difference
+cluster_imbalance,Cluster Imbalance,Hybrid w/o distance,False,0.148143089539898,0.0749991354107946,-97.52639644239926,0.001953125,-1.0,large,10,0.013671875,True,proposed worse
+cluster_imbalance,Cluster Imbalance,Hybrid w/o balance,False,0.148143089539898,0.3388019646188008,56.27443019506114,0.001953125,1.0,large,10,0.013671875,True,proposed better
+final_fitness,Final Fitness,GWO only,False,0.243855943516382,0.24665260899242392,1.1338479197387308,0.001953125,0.22,small,10,0.013671875,True,proposed better
+final_fitness,Final Fitness,ABC only,False,0.243855943516382,0.2457014800594815,0.751129599484996,0.037109375,0.1,negligible,10,0.037109375,True,proposed better
+final_fitness,Final Fitness,GWO->ABC,False,0.243855943516382,0.24531699299555312,0.5955761406212883,0.009765625,0.08,negligible,10,0.01953125,True,proposed better
+final_fitness,Final Fitness,ABC->GWO,False,0.243855943516382,0.24737180332124034,1.4212855942569114,0.001953125,0.26,small,10,0.013671875,True,proposed better
+final_fitness,Final Fitness,Hybrid w/o energy,False,0.243855943516382,0.2469992354379323,1.2725917616616143,0.001953125,0.2,small,10,0.013671875,True,proposed better
+final_fitness,Final Fitness,Hybrid w/o distance,False,0.243855943516382,0.2232335537086167,-9.238033201175217,0.001953125,-0.78,large,10,0.013671875,True,proposed worse
+final_fitness,Final Fitness,Hybrid w/o balance,False,0.243855943516382,0.27031195328801044,9.787214161202938,0.001953125,0.84,large,10,0.013671875,True,proposed better
+runtime,Runtime,GWO only,False,536.7213639199879,181.9390568900213,-195.00062993314606,0.001953125,-0.84,large,10,0.013671875,True,proposed worse
+runtime,Runtime,ABC only,False,536.7213639199879,506.65942935998464,-5.933361310965368,0.001953125,-0.42,medium,10,0.013671875,True,proposed worse
+runtime,Runtime,GWO->ABC,False,536.7213639199879,152.7319663700211,-251.4139028497036,0.001953125,-0.88,large,10,0.013671875,True,proposed worse
+runtime,Runtime,ABC->GWO,False,536.7213639199879,149.41350710000626,-259.21877100491764,0.001953125,-0.88,large,10,0.013671875,True,proposed worse
+runtime,Runtime,Hybrid w/o energy,False,536.7213639199879,554.0165890099822,3.1217883061770055,0.001953125,0.42,medium,10,0.013671875,True,proposed better
+runtime,Runtime,Hybrid w/o distance,False,536.7213639199879,460.82615964000433,-16.46937846134269,0.130859375,-0.22,small,10,0.26171875,False,no significant difference
+runtime,Runtime,Hybrid w/o balance,False,536.7213639199879,538.2489632200056,0.2838090557349312,0.625,-0.02,negligible,10,0.625,False,no significant difference
+runtime_per_round,Runtime / round,GWO only,False,461.08262284169575,155.53471475400423,-196.44997489528313,0.001953125,-0.84,large,10,0.013671875,True,proposed worse
+runtime_per_round,Runtime / round,ABC only,False,461.08262284169575,435.7613737401747,-5.810806241082535,0.001953125,-0.44,medium,10,0.013671875,True,proposed worse
+runtime_per_round,Runtime / round,GWO->ABC,False,461.08262284169575,130.6914951123269,-252.80231697204468,0.001953125,-0.88,large,10,0.013671875,True,proposed worse
+runtime_per_round,Runtime / round,ABC->GWO,False,461.08262284169575,128.9715500999635,-257.50723511062637,0.001953125,-0.88,large,10,0.013671875,True,proposed worse
+runtime_per_round,Runtime / round,Hybrid w/o energy,False,461.08262284169575,431.6841743515864,-6.810175178246326,0.10546875,-0.16,small,10,0.31640625,False,no significant difference
+runtime_per_round,Runtime / round,Hybrid w/o distance,False,461.08262284169575,401.30636572975436,-14.895417121839431,0.921875,-0.1,negligible,10,0.921875,False,no significant difference
+runtime_per_round,Runtime / round,Hybrid w/o balance,False,461.08262284169575,466.1323502288993,1.08332480779844,0.16015625,0.08,negligible,10,0.3203125,False,no significant difference
+evaluations,Fitness Evaluations,GWO only,False,726752.3,720316.0,-0.8935383914837441,0.00390625,-0.44,medium,10,0.01953125,True,proposed worse
+evaluations,Fitness Evaluations,ABC only,False,726752.3,727543.1,0.10869459142694504,0.6953125,0.2,small,10,1.0,False,no significant difference
+evaluations,Fitness Evaluations,GWO->ABC,False,726752.3,740818.0,1.8986714685658224,0.00390625,0.78,large,10,0.01953125,True,proposed better
+evaluations,Fitness Evaluations,ABC->GWO,False,726752.3,736095.9,1.269345475229515,0.009765625,0.62,large,10,0.029296875,True,proposed better
+evaluations,Fitness Evaluations,Hybrid w/o energy,False,726752.3,819422.2,11.309176148754563,0.001953125,0.96,large,10,0.013671875,True,proposed better
+evaluations,Fitness Evaluations,Hybrid w/o distance,False,726752.3,719150.2,-1.0570948878273403,0.001953125,-0.68,large,10,0.013671875,True,proposed worse
+evaluations,Fitness Evaluations,Hybrid w/o balance,False,726752.3,725505.2,-0.1718940126135682,0.845703125,0.02,negligible,10,1.0,False,no significant difference

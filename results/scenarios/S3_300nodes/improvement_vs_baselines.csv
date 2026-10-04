@@ -1,0 +1,46 @@
+metric,label,baseline,higher_is_better,proposed_mean,baseline_mean,improvement_pct,p_value,cliffs_delta,effect,n_pairs,p_holm,significant,verdict
+fnd,FND,LEACH,True,1173.2,939.6,24.861643252447852,0.001953125,1.0,large,10,0.005859375,True,proposed better
+fnd,FND,GWO,True,1173.2,1173.7,-0.04260032376246059,0.9296875,-0.1,negligible,10,0.9296875,False,no significant difference
+fnd,FND,ABC,True,1173.2,1172.0,0.1023890784982974,0.1171875,0.3,small,10,0.234375,False,no significant difference
+hnd,HND,LEACH,True,1187.2,1164.1,1.9843656043295368,0.001953125,1.0,large,10,0.005859375,True,proposed better
+hnd,HND,GWO,True,1187.2,1188.0,-0.06734006734006351,0.078125,-0.18,small,10,0.15625,False,no significant difference
+hnd,HND,ABC,True,1187.2,1187.2,0.0,1.0,0.05,negligible,10,1.0,False,no significant difference
+lnd,LND,LEACH,True,1235.7,1440.5,-14.217285664699755,0.001953125,-1.0,large,10,0.005859375,True,proposed worse
+lnd,LND,GWO,True,1235.7,1243.5,-0.627261761158018,0.34765625,-0.16,small,10,0.6953125,False,no significant difference
+lnd,LND,ABC,True,1235.7,1228.6,0.5778935373596075,0.46875,0.11,negligible,10,0.6953125,False,no significant difference
+node_rounds,Node-rounds,LEACH,True,355892.8,352307.0,1.0178054935042415,0.001953125,1.0,large,10,0.005859375,True,proposed better
+node_rounds,Node-rounds,GWO,True,355892.8,356124.6,-0.06508957819818917,0.00390625,-0.28,small,10,0.0078125,True,proposed worse
+node_rounds,Node-rounds,ABC,True,355892.8,355872.5,0.005704290160096203,0.845703125,0.11,negligible,10,0.845703125,False,no significant difference
+residual_energy_cp,Residual Energy,LEACH,True,86.85848749568375,86.39002538708066,0.5422641173030012,0.001953125,1.0,large,10,0.005859375,True,proposed better
+residual_energy_cp,Residual Energy,GWO,True,86.85848749568375,86.89420379161729,-0.04110319719275144,0.001953125,-0.34,medium,10,0.005859375,True,proposed worse
+residual_energy_cp,Residual Energy,ABC,True,86.85848749568375,86.84841361488388,0.011599383777504977,0.232421875,0.18,small,10,0.232421875,False,no significant difference
+energy_consumed_cp,Energy Consumption,LEACH,False,63.14151250431627,63.609974612919345,0.7364601408093182,0.001953125,1.0,large,10,0.005859375,True,proposed better
+energy_consumed_cp,Energy Consumption,GWO,False,63.14151250431627,63.105796208382706,-0.05659748878791053,0.001953125,-0.34,medium,10,0.005859375,True,proposed worse
+energy_consumed_cp,Energy Consumption,ABC,False,63.14151250431627,63.151586385116104,0.015951904578300678,0.232421875,0.18,small,10,0.232421875,False,no significant difference
+throughput_packets,Throughput,LEACH,True,354664.5,348250.5,1.8417776858898982,0.001953125,1.0,large,10,0.005859375,True,proposed better
+throughput_packets,Throughput,GWO,True,354664.5,355022.4,-0.10081054040534436,0.064453125,-0.48,large,10,0.12890625,False,no significant difference
+throughput_packets,Throughput,ABC,True,354664.5,354710.7,-0.013024698719269433,1.0,0.1,negligible,10,1.0,False,no significant difference
+pdr,PDR,LEACH,True,0.9957092714545175,0.9876447537550106,0.8165403267567326,0.001953125,1.0,large,10,0.005859375,True,proposed better
+pdr,PDR,GWO,True,0.9957092714545175,0.9960663589399672,-0.035849768666992576,0.845703125,-0.04,negligible,10,1.0,False,no significant difference
+pdr,PDR,ABC,True,0.9957092714545175,0.9958958368879051,-0.018733428384496268,1.0,0.1,negligible,10,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,LEACH,False,12.584062279543728,14.370408172338452,12.430724801771847,0.001953125,1.0,large,10,0.005859375,True,proposed better
+avg_cluster_distance,Avg. Cluster Distance,GWO,False,12.584062279543728,12.447878508585319,-1.0940319739181494,0.001953125,-0.28,small,10,0.005859375,True,proposed worse
+avg_cluster_distance,Avg. Cluster Distance,ABC,False,12.584062279543728,12.56800346757155,-0.1277753623605626,0.556640625,-0.08,negligible,10,0.556640625,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,LEACH,False,37.64611905782037,38.38288900065768,1.9195270653667615,0.001953125,0.78,large,10,0.005859375,True,proposed better
+avg_ch_bs_distance,Avg. CH-BS Distance,GWO,False,37.64611905782037,37.706665728634576,0.16057285799265264,0.01953125,0.12,negligible,10,0.01953125,True,proposed better
+avg_ch_bs_distance,Avg. CH-BS Distance,ABC,False,37.64611905782037,37.88237250218901,0.6236500745959983,0.001953125,0.36,medium,10,0.005859375,True,proposed better
+cluster_imbalance,Cluster Imbalance,LEACH,False,0.18284636859276396,0.5520399473539999,66.87805484563741,0.001953125,1.0,large,10,0.005859375,True,proposed better
+cluster_imbalance,Cluster Imbalance,GWO,False,0.18284636859276396,0.21866898859582684,16.382121778262313,0.001953125,1.0,large,10,0.005859375,True,proposed better
+cluster_imbalance,Cluster Imbalance,ABC,False,0.18284636859276396,0.23959722665920785,23.68594113452061,0.001953125,1.0,large,10,0.005859375,True,proposed better
+final_fitness,Final Fitness,LEACH,False,0.2125632133431165,0.5005282986402487,57.532228663080076,0.001953125,1.0,large,10,0.005859375,True,proposed better
+final_fitness,Final Fitness,GWO,False,0.2125632133431165,0.21605199642523726,1.6147886341462299,0.001953125,0.32,small,10,0.005859375,True,proposed better
+final_fitness,Final Fitness,ABC,False,0.2125632133431165,0.22445338339804105,5.2973895402765026,0.001953125,0.84,large,10,0.005859375,True,proposed better
+runtime,Runtime,LEACH,False,608.0235178599876,0.09279147999259293,-655157.9158221455,0.001953125,-1.0,large,10,0.005859375,True,proposed worse
+runtime,Runtime,GWO,False,608.0235178599876,334.23589785998666,-81.91448667033728,0.001953125,-0.84,large,10,0.005859375,True,proposed worse
+runtime,Runtime,ABC,False,608.0235178599876,388.1950425499734,-56.62835719539491,0.001953125,-0.84,large,10,0.005859375,True,proposed worse
+runtime_per_round,Runtime / round,LEACH,False,498.2741366914532,0.06441798789508861,-773401.5528627569,0.001953125,-1.0,large,10,0.005859375,True,proposed worse
+runtime_per_round,Runtime / round,GWO,False,498.2741366914532,272.49014648425873,-82.85950634190641,0.001953125,-0.84,large,10,0.005859375,True,proposed worse
+runtime_per_round,Runtime / round,ABC,False,498.2741366914532,317.91959802238534,-56.72960704246007,0.001953125,-0.84,large,10,0.005859375,True,proposed worse
+evaluations,Fitness Evaluations,LEACH,False,765169.7,0.0,,0.001953125,-1.0,large,10,0.005859375,True,no significant difference
+evaluations,Fitness Evaluations,GWO,False,765169.7,770970.0,0.7523379638637102,0.322265625,0.22,small,10,0.322265625,False,no significant difference
+evaluations,Fitness Evaluations,ABC,False,765169.7,755939.1,-1.221077200531098,0.037109375,-0.26,small,10,0.07421875,False,no significant difference

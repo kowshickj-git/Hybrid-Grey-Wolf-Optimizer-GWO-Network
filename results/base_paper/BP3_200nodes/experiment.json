@@ -1,0 +1,42 @@
+{
+  "title": "Base paper BP3_200nodes",
+  "description": "Scenario 3: 200 nodes, 150 x 150 m, BS (200, 50), 10 % CHs \u2014 base paper Table 3 conditions; DEAI-PSO = existing system; Hybrid GWO-ABC (Eq. 12) = proposed optimiser on the base paper's own objective; GWO/ABC (Eq. 12) = its components on the same objective; Hybrid GWO-ABC = proposed optimiser with the project's multi-objective fitness.",
+  "algorithms": [
+    "LEACH",
+    "DEAI-PSO",
+    "GWO (Eq. 12)",
+    "ABC (Eq. 12)",
+    "Hybrid GWO-ABC (Eq. 12)",
+    "Hybrid GWO-ABC"
+  ],
+  "runs": 20,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "proposed": "Hybrid GWO-ABC (Eq. 12)",
+  "created": "2026-10-04T11:56:03",
+  "elapsed_s": 1076.2,
+  "python": "3.12.10",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed_rule": "run r uses deployment and algorithm seed config.seed + r"
+}

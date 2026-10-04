@@ -1,0 +1,55 @@
+{
+  "n_nodes": 160,
+  "area_width": 100.0,
+  "area_height": 100.0,
+  "initial_energy": 0.5,
+  "bs_x": 200.0,
+  "bs_y": 50.0,
+  "packet_bits": 4000,
+  "control_bits": 200,
+  "rounds": 3000,
+  "ch_percentage": 0.1,
+  "count_tolerance": 0.5,
+  "ch_energy_threshold": 1.0,
+  "free_node_radius": 85.0,
+  "opt_iterations": 30,
+  "gwo": {
+    "population": 20
+  },
+  "abc": {
+    "colony_size": 20,
+    "limit": 10
+  },
+  "hybrid": {
+    "budget_share": 0.5,
+    "transfer_size": 3,
+    "feedback": true
+  },
+  "deai_pso": {
+    "particles": 36,
+    "iterations": 0,
+    "a": 0.8,
+    "cp_i": 2.5,
+    "cp_f": 0.5,
+    "cg_i": 0.5,
+    "cg_f": 2.5,
+    "vmax_frac": 0.2,
+    "normalise_distance": false
+  },
+  "weights": {
+    "energy": 0.3,
+    "intra_distance": 0.25,
+    "ch_bs_distance": 0.2,
+    "balance": 0.15,
+    "ch_count": 0.1
+  },
+  "energy": {
+    "e_elec": 5e-08,
+    "e_fs": 1e-11,
+    "e_mp": 1.3e-15,
+    "e_da": 5e-09
+  },
+  "invalid_penalty": 10.0,
+  "checkpoint_round": 300,
+  "seed": 42
+}

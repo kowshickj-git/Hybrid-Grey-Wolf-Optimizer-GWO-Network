@@ -1,0 +1,465 @@
+﻿[Base paper BP1_100nodes] 6 algorithms x 20 runs -> C:\Users\Admin\Hybrid-GWO-ABC-WSN\results\base_paper\BP1_100nodes
+  [   1/120]     5.6s  LEACH                  run 0 
+  [   2/120]     5.6s  LEACH                  run 1 
+  [   3/120]     7.5s  LEACH                  run 2 
+  [   4/120]    41.5s  DEAI-PSO               run 0 
+  [   5/120]    46.5s  DEAI-PSO               run 1 
+  [   6/120]    50.2s  DEAI-PSO               run 2 
+  [   7/120]    51.3s  GWO (Eq. 12)           run 0 
+  [   8/120]    53.4s  GWO (Eq. 12)           run 1 
+  [   9/120]    55.5s  LEACH                  run 3 
+  [  10/120]    70.8s  ABC (Eq. 12)           run 0 
+  [  11/120]    72.4s  ABC (Eq. 12)           run 1 
+  [  12/120]    86.2s  GWO (Eq. 12)           run 2 
+  [  13/120]    91.7s  DEAI-PSO               run 3 
+  [  14/120]    91.8s  Hybrid GWO-ABC         run 0 
+  [  15/120]    93.7s  LEACH                  run 4 
+  [  16/120]    95.2s  Hybrid GWO-ABC (Eq. 12) run 0 
+  [  17/120]    97.3s  Hybrid GWO-ABC (Eq. 12) run 1 
+  [  18/120]    97.8s  Hybrid GWO-ABC         run 1 
+  [  19/120]   109.3s  ABC (Eq. 12)           run 2 
+  [  20/120]   114.8s  GWO (Eq. 12)           run 3 
+  [  21/120]   116.8s  LEACH                  run 5 
+  [  22/120]   132.7s  DEAI-PSO               run 4 
+  [  23/120]   134.8s  ABC (Eq. 12)           run 3 
+  [  24/120]   137.9s  Hybrid GWO-ABC (Eq. 12) run 2 
+  [  25/120]   138.5s  Hybrid GWO-ABC         run 2 
+  [  26/120]   139.9s  GWO (Eq. 12)           run 4 
+  [  27/120]   142.0s  LEACH                  run 6 
+  [  28/120]   154.3s  DEAI-PSO               run 5 
+  [  29/120]   160.5s  ABC (Eq. 12)           run 4 
+  [  30/120]   174.2s  Hybrid GWO-ABC (Eq. 12) run 3 
+  [  31/120]   176.6s  GWO (Eq. 12)           run 5 
+  [  32/120]   178.3s  DEAI-PSO               run 6 
+  [  33/120]   178.4s  Hybrid GWO-ABC         run 3 
+  [  34/120]   180.5s  LEACH                  run 7 
+  [  35/120]   185.5s  Hybrid GWO-ABC (Eq. 12) run 4 
+  [  36/120]   194.7s  Hybrid GWO-ABC         run 4 
+  [  37/120]   196.9s  ABC (Eq. 12)           run 5 
+  [  38/120]   198.7s  GWO (Eq. 12)           run 6 
+  [  39/120]   200.8s  LEACH                  run 8 
+  [  40/120]   215.9s  DEAI-PSO               run 7 
+  [  41/120]   223.3s  Hybrid GWO-ABC         run 5 
+  [  42/120]   224.0s  ABC (Eq. 12)           run 6 
+  [  43/120]   224.5s  GWO (Eq. 12)           run 7 
+  [  44/120]   225.4s  Hybrid GWO-ABC (Eq. 12) run 5 
+  [  45/120]   227.6s  LEACH                  run 9 
+  [  46/120]   238.9s  DEAI-PSO               run 8 
+  [  47/120]   247.8s  ABC (Eq. 12)           run 7 
+  [  48/120]   259.8s  GWO (Eq. 12)           run 8 
+  [  49/120]   262.0s  Hybrid GWO-ABC (Eq. 12) run 6 
+  [  50/120]   262.2s  Hybrid GWO-ABC         run 6 
+  [  51/120]   264.2s  LEACH                  run 10 
+  [  52/120]   265.3s  DEAI-PSO               run 9 
+  [  53/120]   281.6s  Hybrid GWO-ABC (Eq. 12) run 7 
+  [  54/120]   283.3s  Hybrid GWO-ABC         run 7 
+  [  55/120]   283.8s  GWO (Eq. 12)           run 9 
+  [  56/120]   285.4s  ABC (Eq. 12)           run 8 
+  [  57/120]   287.5s  LEACH                  run 11 
+  [  58/120]   300.1s  DEAI-PSO               run 10 
+  [  59/120]   308.0s  GWO (Eq. 12)           run 10 
+  [  60/120]   311.6s  Hybrid GWO-ABC         run 8 
+  [  61/120]   311.6s  Hybrid GWO-ABC (Eq. 12) run 8 
+  [  62/120]   311.9s  ABC (Eq. 12)           run 9 
+  [  63/120]   314.0s  LEACH                  run 12 
+  [  64/120]   322.6s  DEAI-PSO               run 11 
+  [  65/120]   343.1s  ABC (Eq. 12)           run 10 
+  [  66/120]   343.8s  GWO (Eq. 12)           run 11 
+  [  67/120]   349.2s  Hybrid GWO-ABC (Eq. 12) run 9 
+  [  68/120]   350.9s  DEAI-PSO               run 12 
+  [  69/120]   351.4s  Hybrid GWO-ABC         run 9 
+  [  70/120]   352.9s  LEACH                  run 13 
+  [  71/120]   366.4s  GWO (Eq. 12)           run 12 
+  [  72/120]   367.7s  ABC (Eq. 12)           run 11 
+  [  73/120]   368.7s  Hybrid GWO-ABC         run 10 
+  [  74/120]   368.9s  Hybrid GWO-ABC (Eq. 12) run 10 
+  [  75/120]   370.8s  LEACH                  run 14 
+  [  76/120]   387.5s  DEAI-PSO               run 13 
+  [  77/120]   394.7s  Hybrid GWO-ABC         run 11 
+  [  78/120]   394.7s  Hybrid GWO-ABC (Eq. 12) run 11 
+  [  79/120]   396.2s  GWO (Eq. 12)           run 13 
+  [  80/120]   403.0s  ABC (Eq. 12)           run 12 
+  [  81/120]   404.9s  LEACH                  run 15 
+  [  82/120]   410.8s  DEAI-PSO               run 14 
+  [  83/120]   428.0s  ABC (Eq. 12)           run 13 
+  [  84/120]   428.6s  Hybrid GWO-ABC (Eq. 12) run 12 
+  [  85/120]   430.9s  Hybrid GWO-ABC         run 12 
+  [  86/120]   432.4s  GWO (Eq. 12)           run 14 
+  [  87/120]   434.4s  LEACH                  run 16 
+  [  88/120]   442.4s  DEAI-PSO               run 15 
+  [  89/120]   454.2s  Hybrid GWO-ABC         run 13 
+  [  90/120]   454.6s  GWO (Eq. 12)           run 15 
+  [  91/120]   454.8s  Hybrid GWO-ABC (Eq. 12) run 13 
+  [  92/120]   461.2s  ABC (Eq. 12)           run 14 
+  [  93/120]   463.4s  LEACH                  run 17 
+  [  94/120]   472.6s  DEAI-PSO               run 16 
+  [  95/120]   487.0s  Hybrid GWO-ABC         run 14 
+  [  96/120]   488.0s  Hybrid GWO-ABC (Eq. 12) run 14 
+  [  97/120]   489.3s  GWO (Eq. 12)           run 16 
+  [  98/120]   492.3s  ABC (Eq. 12)           run 15 
+  [  99/120]   494.2s  LEACH                  run 18 
+  [ 100/120]   498.4s  DEAI-PSO               run 17 
+  [ 101/120]   515.1s  GWO (Eq. 12)           run 17 
+  [ 102/120]   517.1s  Hybrid GWO-ABC (Eq. 12) run 15 
+  [ 103/120]   517.7s  Hybrid GWO-ABC         run 15 
+  [ 104/120]   518.2s  ABC (Eq. 12)           run 16 
+  [ 105/120]   520.3s  LEACH                  run 19 
+  [ 106/120]   531.2s  DEAI-PSO               run 18 
+  [ 107/120]   545.3s  Hybrid GWO-ABC         run 16 
+  [ 108/120]   547.0s  Hybrid GWO-ABC (Eq. 12) run 16 
+  [ 109/120]   547.3s  GWO (Eq. 12)           run 18 
+  [ 110/120]   551.8s  ABC (Eq. 12)           run 17 
+  [ 111/120]   559.8s  DEAI-PSO               run 19 
+  [ 112/120]   572.3s  Hybrid GWO-ABC         run 17 
+  [ 113/120]   572.9s  Hybrid GWO-ABC (Eq. 12) run 17 
+  [ 114/120]   574.9s  GWO (Eq. 12)           run 19 
+  [ 115/120]   577.5s  ABC (Eq. 12)           run 18 
+  [ 116/120]   591.1s  ABC (Eq. 12)           run 19 
+  [ 117/120]   591.6s  Hybrid GWO-ABC (Eq. 12) run 18 
+  [ 118/120]   592.1s  Hybrid GWO-ABC         run 18 
+  [ 119/120]   599.7s  Hybrid GWO-ABC (Eq. 12) run 19 
+  [ 120/120]   600.2s  Hybrid GWO-ABC         run 19 
+[Base paper BP2_160nodes] 6 algorithms x 20 runs -> C:\Users\Admin\Hybrid-GWO-ABC-WSN\results\base_paper\BP2_160nodes
+  [   1/120]     5.5s  LEACH                  run 0 
+  [   2/120]     5.6s  LEACH                  run 1 
+  [   3/120]     7.7s  LEACH                  run 2 
+  [   4/120]    78.1s  GWO (Eq. 12)           run 0 
+  [   5/120]    79.4s  DEAI-PSO               run 1 
+  [   6/120]    80.9s  GWO (Eq. 12)           run 1 
+  [   7/120]    81.5s  DEAI-PSO               run 0 
+  [   8/120]    85.9s  DEAI-PSO               run 2 
+  [   9/120]    88.8s  LEACH                  run 3 
+  [  10/120]    93.3s  ABC (Eq. 12)           run 0 
+  [  11/120]    97.9s  ABC (Eq. 12)           run 1 
+  [  12/120]   116.3s  Hybrid GWO-ABC         run 0 
+  [  13/120]   123.9s  Hybrid GWO-ABC         run 1 
+  [  14/120]   124.3s  Hybrid GWO-ABC (Eq. 12) run 0 
+  [  15/120]   127.0s  LEACH                  run 4 
+  [  16/120]   130.4s  Hybrid GWO-ABC (Eq. 12) run 1 
+  [  17/120]   156.5s  GWO (Eq. 12)           run 2 
+  [  18/120]   170.9s  DEAI-PSO               run 3 
+  [  19/120]   173.1s  GWO (Eq. 12)           run 3 
+  [  20/120]   174.9s  ABC (Eq. 12)           run 2 
+  [  21/120]   177.2s  LEACH                  run 5 
+  [  22/120]   193.2s  ABC (Eq. 12)           run 3 
+  [  23/120]   199.3s  Hybrid GWO-ABC         run 2 
+  [  24/120]   207.8s  DEAI-PSO               run 4 
+  [  25/120]   208.2s  Hybrid GWO-ABC (Eq. 12) run 2 
+  [  26/120]   209.4s  GWO (Eq. 12)           run 4 
+  [  27/120]   212.0s  LEACH                  run 6 
+  [  28/120]   243.3s  Hybrid GWO-ABC (Eq. 12) run 3 
+  [  29/120]   243.7s  Hybrid GWO-ABC         run 3 
+  [  30/120]   248.3s  ABC (Eq. 12)           run 4 
+  [  31/120]   250.9s  DEAI-PSO               run 5 
+  [  32/120]   271.3s  GWO (Eq. 12)           run 5 
+  [  33/120]   273.8s  LEACH                  run 7 
+  [  34/120]   286.0s  Hybrid GWO-ABC         run 4 
+  [  35/120]   288.3s  DEAI-PSO               run 6 
+  [  36/120]   289.7s  ABC (Eq. 12)           run 5 
+  [  37/120]   292.0s  Hybrid GWO-ABC (Eq. 12) run 4 
+  [  38/120]   316.9s  GWO (Eq. 12)           run 6 
+  [  39/120]   319.3s  LEACH                  run 8 
+  [  40/120]   321.9s  Hybrid GWO-ABC         run 5 
+  [  41/120]   327.4s  Hybrid GWO-ABC (Eq. 12) run 5 
+  [  42/120]   332.2s  ABC (Eq. 12)           run 6 
+  [  43/120]   353.9s  DEAI-PSO               run 7 
+  [  44/120]   360.7s  GWO (Eq. 12)           run 7 
+  [  45/120]   362.2s  Hybrid GWO-ABC         run 6 
+  [  46/120]   363.3s  LEACH                  run 9 
+  [  47/120]   366.3s  Hybrid GWO-ABC (Eq. 12) run 6 
+  [  48/120]   378.2s  ABC (Eq. 12)           run 7 
+  [  49/120]   392.4s  DEAI-PSO               run 8 
+  [  50/120]   396.5s  GWO (Eq. 12)           run 8 
+  [  51/120]   398.7s  LEACH                  run 10 
+  [  52/120]   404.7s  Hybrid GWO-ABC         run 7 
+  [  53/120]   410.2s  Hybrid GWO-ABC (Eq. 12) run 7 
+  [  54/120]   418.1s  ABC (Eq. 12)           run 8 
+  [  55/120]   433.6s  DEAI-PSO               run 9 
+  [  56/120]   438.1s  GWO (Eq. 12)           run 9 
+  [  57/120]   440.6s  LEACH                  run 11 
+  [  58/120]   451.9s  Hybrid GWO-ABC (Eq. 12) run 8 
+  [  59/120]   455.7s  ABC (Eq. 12)           run 9 
+  [  60/120]   465.1s  Hybrid GWO-ABC         run 8 
+  [  61/120]   481.7s  GWO (Eq. 12)           run 10 
+  [  62/120]   494.5s  DEAI-PSO               run 10 
+  [  63/120]   497.7s  LEACH                  run 12 
+  [  64/120]   503.6s  ABC (Eq. 12)           run 10 
+  [  65/120]   509.1s  Hybrid GWO-ABC (Eq. 12) run 9 
+  [  66/120]   517.3s  Hybrid GWO-ABC         run 9 
+  [  67/120]   527.5s  DEAI-PSO               run 11 
+  [  68/120]   534.2s  GWO (Eq. 12)           run 11 
+  [  69/120]   536.9s  LEACH                  run 13 
+  [  70/120]   549.3s  Hybrid GWO-ABC (Eq. 12) run 10 
+  [  71/120]   558.6s  Hybrid GWO-ABC         run 10 
+  [  72/120]   559.2s  ABC (Eq. 12)           run 11 
+  [  73/120]   587.6s  GWO (Eq. 12)           run 12 
+  [  74/120]   589.6s  DEAI-PSO               run 12 
+  [  75/120]   592.5s  LEACH                  run 14 
+  [  76/120]   606.1s  Hybrid GWO-ABC (Eq. 12) run 11 
+  [  77/120]   608.9s  Hybrid GWO-ABC         run 11 
+  [  78/120]   614.7s  ABC (Eq. 12)           run 12 
+  [  79/120]   622.0s  DEAI-PSO               run 13 
+  [  80/120]   632.1s  GWO (Eq. 12)           run 13 
+  [  81/120]   635.5s  LEACH                  run 15 
+  [  82/120]   652.7s  Hybrid GWO-ABC         run 12 
+  [  83/120]   654.6s  Hybrid GWO-ABC (Eq. 12) run 12 
+  [  84/120]   659.0s  ABC (Eq. 12)           run 13 
+  [  85/120]   672.9s  DEAI-PSO               run 14 
+  [  86/120]   689.2s  GWO (Eq. 12)           run 14 
+  [  87/120]   689.7s  Hybrid GWO-ABC (Eq. 12) run 13 
+  [  88/120]   691.8s  LEACH                  run 16 
+  [  89/120]   707.9s  ABC (Eq. 12)           run 14 
+  [  90/120]   710.3s  Hybrid GWO-ABC         run 13 
+  [  91/120]   717.3s  DEAI-PSO               run 15 
+  [  92/120]   730.7s  GWO (Eq. 12)           run 15 
+  [  93/120]   733.0s  LEACH                  run 17 
+  [  94/120]   745.3s  Hybrid GWO-ABC         run 14 
+  [  95/120]   746.5s  Hybrid GWO-ABC (Eq. 12) run 14 
+  [  96/120]   750.6s  ABC (Eq. 12)           run 15 
+  [  97/120]   773.5s  DEAI-PSO               run 16 
+  [  98/120]   774.0s  GWO (Eq. 12)           run 16 
+  [  99/120]   776.5s  LEACH                  run 18 
+  [ 100/120]   787.0s  Hybrid GWO-ABC (Eq. 12) run 15 
+  [ 101/120]   797.7s  Hybrid GWO-ABC         run 15 
+  [ 102/120]   804.4s  ABC (Eq. 12)           run 16 
+  [ 103/120]   811.5s  DEAI-PSO               run 17 
+  [ 104/120]   824.9s  GWO (Eq. 12)           run 17 
+  [ 105/120]   827.8s  LEACH                  run 19 
+  [ 106/120]   839.2s  Hybrid GWO-ABC (Eq. 12) run 16 
+  [ 107/120]   841.3s  Hybrid GWO-ABC         run 16 
+  [ 108/120]   843.9s  ABC (Eq. 12)           run 17 
+  [ 109/120]   849.9s  DEAI-PSO               run 18 
+  [ 110/120]   868.5s  GWO (Eq. 12)           run 18 
+  [ 111/120]   874.7s  Hybrid GWO-ABC (Eq. 12) run 17 
+  [ 112/120]   888.0s  Hybrid GWO-ABC         run 17 
+  [ 113/120]   890.6s  ABC (Eq. 12)           run 18 
+  [ 114/120]   892.4s  DEAI-PSO               run 19 
+  [ 115/120]   904.3s  GWO (Eq. 12)           run 19 
+  [ 116/120]   908.7s  Hybrid GWO-ABC         run 18 
+  [ 117/120]   910.0s  Hybrid GWO-ABC (Eq. 12) run 18 
+  [ 118/120]   911.0s  ABC (Eq. 12)           run 19 
+  [ 119/120]   918.2s  Hybrid GWO-ABC         run 19 
+  [ 120/120]   918.8s  Hybrid GWO-ABC (Eq. 12) run 19 
+[Base paper BP3_200nodes] 6 algorithms x 20 runs -> C:\Users\Admin\Hybrid-GWO-ABC-WSN\results\base_paper\BP3_200nodes
+  [   1/120]     7.0s  LEACH                  run 1 
+  [   2/120]     7.2s  LEACH                  run 0 
+  [   3/120]     9.9s  LEACH                  run 2 
+  [   4/120]    89.3s  DEAI-PSO               run 2 
+  [   5/120]    95.4s  DEAI-PSO               run 1 
+  [   6/120]    95.8s  GWO (Eq. 12)           run 1 
+  [   7/120]    95.8s  GWO (Eq. 12)           run 0 
+  [   8/120]   109.1s  DEAI-PSO               run 0 
+  [   9/120]   111.8s  LEACH                  run 3 
+  [  10/120]   116.2s  ABC (Eq. 12)           run 1 
+  [  11/120]   119.1s  ABC (Eq. 12)           run 0 
+  [  12/120]   143.7s  Hybrid GWO-ABC         run 0 
+  [  13/120]   146.8s  Hybrid GWO-ABC         run 1 
+  [  14/120]   147.2s  Hybrid GWO-ABC (Eq. 12) run 0 
+  [  15/120]   149.9s  LEACH                  run 4 
+  [  16/120]   153.3s  Hybrid GWO-ABC (Eq. 12) run 1 
+  [  17/120]   173.3s  GWO (Eq. 12)           run 2 
+  [  18/120]   201.5s  DEAI-PSO               run 3 
+  [  19/120]   201.7s  ABC (Eq. 12)           run 2 
+  [  20/120]   203.6s  GWO (Eq. 12)           run 3 
+  [  21/120]   206.1s  LEACH                  run 5 
+  [  22/120]   222.2s  Hybrid GWO-ABC         run 2 
+  [  23/120]   231.1s  ABC (Eq. 12)           run 3 
+  [  24/120]   232.4s  DEAI-PSO               run 4 
+  [  25/120]   234.8s  Hybrid GWO-ABC (Eq. 12) run 2 
+  [  26/120]   239.0s  GWO (Eq. 12)           run 4 
+  [  27/120]   241.7s  LEACH                  run 6 
+  [  28/120]   276.5s  ABC (Eq. 12)           run 4 
+  [  29/120]   284.0s  Hybrid GWO-ABC         run 3 
+  [  30/120]   288.4s  Hybrid GWO-ABC (Eq. 12) run 3 
+  [  31/120]   295.5s  DEAI-PSO               run 5 
+  [  32/120]   309.0s  GWO (Eq. 12)           run 5 
+  [  33/120]   311.9s  LEACH                  run 7 
+  [  34/120]   327.7s  DEAI-PSO               run 6 
+  [  35/120]   333.6s  Hybrid GWO-ABC         run 4 
+  [  36/120]   342.8s  Hybrid GWO-ABC (Eq. 12) run 4 
+  [  37/120]   346.2s  ABC (Eq. 12)           run 5 
+  [  38/120]   373.3s  GWO (Eq. 12)           run 6 
+  [  39/120]   376.1s  LEACH                  run 8 
+  [  40/120]   381.7s  Hybrid GWO-ABC         run 5 
+  [  41/120]   389.6s  Hybrid GWO-ABC (Eq. 12) run 5 
+  [  42/120]   403.4s  ABC (Eq. 12)           run 6 
+  [  43/120]   414.0s  DEAI-PSO               run 7 
+  [  44/120]   422.5s  GWO (Eq. 12)           run 7 
+  [  45/120]   425.2s  LEACH                  run 9 
+  [  46/120]   444.4s  Hybrid GWO-ABC (Eq. 12) run 6 
+  [  47/120]   445.8s  Hybrid GWO-ABC         run 6 
+  [  48/120]   453.7s  ABC (Eq. 12)           run 7 
+  [  49/120]   467.6s  DEAI-PSO               run 8 
+  [  50/120]   474.3s  GWO (Eq. 12)           run 8 
+  [  51/120]   478.4s  LEACH                  run 10 
+  [  52/120]   494.7s  Hybrid GWO-ABC         run 7 
+  [  53/120]   501.2s  Hybrid GWO-ABC (Eq. 12) run 7 
+  [  54/120]   508.3s  ABC (Eq. 12)           run 8 
+  [  55/120]   518.6s  DEAI-PSO               run 9 
+  [  56/120]   538.3s  GWO (Eq. 12)           run 9 
+  [  57/120]   541.1s  LEACH                  run 11 
+  [  58/120]   558.4s  Hybrid GWO-ABC (Eq. 12) run 8 
+  [  59/120]   562.7s  Hybrid GWO-ABC         run 8 
+  [  60/120]   564.3s  ABC (Eq. 12)           run 9 
+  [  61/120]   574.4s  DEAI-PSO               run 10 
+  [  62/120]   589.5s  GWO (Eq. 12)           run 10 
+  [  63/120]   592.1s  LEACH                  run 12 
+  [  64/120]   602.6s  Hybrid GWO-ABC (Eq. 12) run 9 
+  [  65/120]   614.5s  Hybrid GWO-ABC         run 9 
+  [  66/120]   617.8s  ABC (Eq. 12)           run 10 
+  [  67/120]   632.1s  DEAI-PSO               run 11 
+  [  68/120]   645.7s  GWO (Eq. 12)           run 11 
+  [  69/120]   648.3s  LEACH                  run 13 
+  [  70/120]   657.0s  Hybrid GWO-ABC (Eq. 12) run 10 
+  [  71/120]   669.3s  Hybrid GWO-ABC         run 10 
+  [  72/120]   671.8s  DEAI-PSO               run 12 
+  [  73/120]   672.1s  ABC (Eq. 12)           run 11 
+  [  74/120]   687.5s  GWO (Eq. 12)           run 12 
+  [  75/120]   690.2s  LEACH                  run 14 
+  [  76/120]   711.2s  Hybrid GWO-ABC (Eq. 12) run 11 
+  [  77/120]   713.6s  Hybrid GWO-ABC         run 11 
+  [  78/120]   727.7s  ABC (Eq. 12)           run 12 
+  [  79/120]   743.8s  GWO (Eq. 12)           run 13 
+  [  80/120]   753.6s  DEAI-PSO               run 13 
+  [  81/120]   756.4s  LEACH                  run 15 
+  [  82/120]   761.4s  Hybrid GWO-ABC (Eq. 12) run 12 
+  [  83/120]   767.6s  Hybrid GWO-ABC         run 12 
+  [  84/120]   776.1s  DEAI-PSO               run 14 
+  [  85/120]   782.5s  ABC (Eq. 12)           run 13 
+  [  86/120]   801.3s  GWO (Eq. 12)           run 14 
+  [  87/120]   804.2s  LEACH                  run 16 
+  [  88/120]   813.5s  Hybrid GWO-ABC         run 13 
+  [  89/120]   821.0s  Hybrid GWO-ABC (Eq. 12) run 13 
+  [  90/120]   824.7s  ABC (Eq. 12)           run 14 
+  [  91/120]   844.8s  DEAI-PSO               run 15 
+  [  92/120]   849.2s  GWO (Eq. 12)           run 15 
+  [  93/120]   852.0s  LEACH                  run 17 
+  [  94/120]   877.1s  Hybrid GWO-ABC (Eq. 12) run 14 
+  [  95/120]   878.8s  ABC (Eq. 12)           run 15 
+  [  96/120]   882.5s  Hybrid GWO-ABC         run 14 
+  [  97/120]   891.1s  DEAI-PSO               run 16 
+  [  98/120]   907.4s  GWO (Eq. 12)           run 16 
+  [  99/120]   910.0s  LEACH                  run 18 
+  [ 100/120]   918.6s  Hybrid GWO-ABC (Eq. 12) run 15 
+  [ 101/120]   922.0s  Hybrid GWO-ABC         run 15 
+  [ 102/120]   933.4s  ABC (Eq. 12)           run 16 
+  [ 103/120]   940.6s  DEAI-PSO               run 17 
+  [ 104/120]   964.7s  GWO (Eq. 12)           run 17 
+  [ 105/120]   967.5s  LEACH                  run 19 
+  [ 106/120]   975.3s  Hybrid GWO-ABC (Eq. 12) run 16 
+  [ 107/120]   981.9s  Hybrid GWO-ABC         run 16 
+  [ 108/120]   986.9s  ABC (Eq. 12)           run 17 
+  [ 109/120]   987.8s  DEAI-PSO               run 18 
+  [ 110/120]  1002.6s  GWO (Eq. 12)           run 18 
+  [ 111/120]  1019.4s  Hybrid GWO-ABC         run 17 
+  [ 112/120]  1023.0s  Hybrid GWO-ABC (Eq. 12) run 17 
+  [ 113/120]  1027.5s  ABC (Eq. 12)           run 18 
+  [ 114/120]  1040.5s  DEAI-PSO               run 19 
+  [ 115/120]  1046.2s  GWO (Eq. 12)           run 19 
+  [ 116/120]  1051.7s  Hybrid GWO-ABC         run 18 
+  [ 117/120]  1053.1s  Hybrid GWO-ABC (Eq. 12) run 18 
+  [ 118/120]  1058.5s  ABC (Eq. 12)           run 19 
+  [ 119/120]  1066.1s  Hybrid GWO-ABC         run 19 
+  [ 120/120]  1067.8s  Hybrid GWO-ABC (Eq. 12) run 19 
+[Attribution: optimiser x objective (BP1)] 5 algorithms x 20 runs -> C:\Users\Admin\Hybrid-GWO-ABC-WSN\results\base_paper\attribution_BP1
+  [   1/100]    36.2s  DEAI-PSO + proposed fitness run 0 
+  [   2/100]    38.4s  DEAI-PSO + proposed fitness run 1 
+  [   3/100]    42.5s  DEAI-PSO               run 0 
+  [   4/100]    46.2s  DEAI-PSO               run 2 
+  [   5/100]    46.7s  DEAI-PSO               run 1 
+  [   6/100]    68.8s  DEAI-PSO + proposed fitness run 2 
+  [   7/100]    85.0s  DEAI-PSO               run 3 
+  [   8/100]    92.0s  Hybrid GWO-ABC (Eq. 12, fixed K) run 0 
+  [   9/100]    93.7s  Hybrid GWO-ABC         run 0 
+  [  10/100]    96.1s  Hybrid GWO-ABC (Eq. 12) run 0 
+  [  11/100]    96.5s  Hybrid GWO-ABC (Eq. 12, fixed K) run 1 
+  [  12/100]    98.0s  Hybrid GWO-ABC         run 1 
+  [  13/100]   100.1s  Hybrid GWO-ABC (Eq. 12) run 1 
+  [  14/100]   100.4s  DEAI-PSO + proposed fitness run 3 
+  [  15/100]   129.9s  DEAI-PSO + proposed fitness run 4 
+  [  16/100]   130.5s  Hybrid GWO-ABC (Eq. 12) run 2 
+  [  17/100]   132.7s  Hybrid GWO-ABC (Eq. 12, fixed K) run 2 
+  [  18/100]   137.6s  DEAI-PSO               run 4 
+  [  19/100]   138.5s  Hybrid GWO-ABC         run 2 
+  [  20/100]   163.2s  DEAI-PSO + proposed fitness run 5 
+  [  21/100]   169.5s  DEAI-PSO               run 5 
+  [  22/100]   178.3s  Hybrid GWO-ABC (Eq. 12) run 3 
+  [  23/100]   181.8s  Hybrid GWO-ABC (Eq. 12, fixed K) run 3 
+  [  24/100]   186.0s  Hybrid GWO-ABC         run 3 
+  [  25/100]   190.1s  Hybrid GWO-ABC (Eq. 12, fixed K) run 4 
+  [  26/100]   191.5s  Hybrid GWO-ABC (Eq. 12) run 4 
+  [  27/100]   192.3s  Hybrid GWO-ABC         run 4 
+  [  28/100]   202.3s  DEAI-PSO + proposed fitness run 6 
+  [  29/100]   202.5s  DEAI-PSO               run 6 
+  [  30/100]   225.1s  DEAI-PSO + proposed fitness run 7 
+  [  31/100]   225.4s  Hybrid GWO-ABC (Eq. 12) run 5 
+  [  32/100]   227.8s  Hybrid GWO-ABC (Eq. 12, fixed K) run 5 
+  [  33/100]   229.2s  Hybrid GWO-ABC         run 5 
+  [  34/100]   230.0s  DEAI-PSO               run 7 
+  [  35/100]   258.7s  DEAI-PSO + proposed fitness run 8 
+  [  36/100]   265.9s  DEAI-PSO               run 8 
+  [  37/100]   271.6s  Hybrid GWO-ABC (Eq. 12, fixed K) run 6 
+  [  38/100]   271.7s  Hybrid GWO-ABC (Eq. 12) run 6 
+  [  39/100]   278.1s  Hybrid GWO-ABC         run 6 
+  [  40/100]   285.2s  Hybrid GWO-ABC (Eq. 12) run 7 
+  [  41/100]   291.9s  Hybrid GWO-ABC (Eq. 12, fixed K) run 7 
+  [  42/100]   294.2s  Hybrid GWO-ABC         run 7 
+  [  43/100]   298.4s  DEAI-PSO               run 9 
+  [  44/100]   299.2s  DEAI-PSO + proposed fitness run 9 
+  [  45/100]   317.8s  Hybrid GWO-ABC (Eq. 12, fixed K) run 8 
+  [  46/100]   319.4s  Hybrid GWO-ABC         run 8 
+  [  47/100]   319.9s  Hybrid GWO-ABC (Eq. 12) run 8 
+  [  48/100]   321.9s  DEAI-PSO               run 10 
+  [  49/100]   322.2s  DEAI-PSO + proposed fitness run 10 
+  [  50/100]   350.2s  DEAI-PSO + proposed fitness run 11 
+  [  51/100]   354.6s  DEAI-PSO               run 11 
+  [  52/100]   362.0s  Hybrid GWO-ABC (Eq. 12, fixed K) run 9 
+  [  53/100]   364.1s  Hybrid GWO-ABC (Eq. 12) run 9 
+  [  54/100]   370.4s  Hybrid GWO-ABC         run 9 
+  [  55/100]   382.4s  Hybrid GWO-ABC (Eq. 12) run 10 
+  [  56/100]   383.6s  Hybrid GWO-ABC (Eq. 12, fixed K) run 10 
+  [  57/100]   386.5s  Hybrid GWO-ABC         run 10 
+  [  58/100]   386.5s  DEAI-PSO + proposed fitness run 12 
+  [  59/100]   388.5s  DEAI-PSO               run 12 
+  [  60/100]   406.4s  Hybrid GWO-ABC (Eq. 12, fixed K) run 11 
+  [  61/100]   410.1s  Hybrid GWO-ABC (Eq. 12) run 11 
+  [  62/100]   410.5s  Hybrid GWO-ABC         run 11 
+  [  63/100]   416.3s  DEAI-PSO + proposed fitness run 13 
+  [  64/100]   422.1s  DEAI-PSO               run 13 
+  [  65/100]   444.9s  DEAI-PSO + proposed fitness run 14 
+  [  66/100]   449.7s  DEAI-PSO               run 14 
+  [  67/100]   451.7s  Hybrid GWO-ABC (Eq. 12, fixed K) run 12 
+  [  68/100]   454.9s  Hybrid GWO-ABC (Eq. 12) run 12 
+  [  69/100]   460.8s  Hybrid GWO-ABC         run 12 
+  [  70/100]   475.0s  Hybrid GWO-ABC (Eq. 12, fixed K) run 13 
+  [  71/100]   479.4s  Hybrid GWO-ABC (Eq. 12) run 13 
+  [  72/100]   480.6s  Hybrid GWO-ABC         run 13 
+  [  73/100]   482.8s  DEAI-PSO + proposed fitness run 15 
+  [  74/100]   485.4s  DEAI-PSO               run 15 
+  [  75/100]   508.2s  Hybrid GWO-ABC (Eq. 12) run 14 
+  [  76/100]   510.8s  DEAI-PSO + proposed fitness run 16 
+  [  77/100]   511.2s  Hybrid GWO-ABC (Eq. 12, fixed K) run 14 
+  [  78/100]   513.4s  DEAI-PSO               run 16 
+  [  79/100]   519.7s  Hybrid GWO-ABC         run 14 
+  [  80/100]   542.3s  DEAI-PSO + proposed fitness run 17 
+  [  81/100]   545.1s  Hybrid GWO-ABC (Eq. 12, fixed K) run 15 
+  [  82/100]   545.2s  Hybrid GWO-ABC (Eq. 12) run 15 
+  [  83/100]   545.3s  DEAI-PSO               run 17 
+  [  84/100]   550.5s  Hybrid GWO-ABC         run 15 
+  [  85/100]   569.2s  Hybrid GWO-ABC (Eq. 12, fixed K) run 16 
+  [  86/100]   574.0s  Hybrid GWO-ABC (Eq. 12) run 16 
+  [  87/100]   576.0s  Hybrid GWO-ABC         run 16 
+  [  88/100]   578.3s  DEAI-PSO + proposed fitness run 18 
+  [  89/100]   580.6s  DEAI-PSO               run 18 
+  [  90/100]   599.1s  Hybrid GWO-ABC (Eq. 12, fixed K) run 17 
+  [  91/100]   601.4s  Hybrid GWO-ABC (Eq. 12) run 17 
+  [  92/100]   604.9s  DEAI-PSO + proposed fitness run 19 
+  [  93/100]   605.6s  DEAI-PSO               run 19 
+  [  94/100]   605.7s  Hybrid GWO-ABC         run 17 
+  [  95/100]   623.9s  Hybrid GWO-ABC (Eq. 12, fixed K) run 18 
+  [  96/100]   624.9s  Hybrid GWO-ABC (Eq. 12) run 18 
+  [  97/100]   627.3s  Hybrid GWO-ABC         run 18 
+  [  98/100]   635.2s  Hybrid GWO-ABC (Eq. 12, fixed K) run 19 
+  [  99/100]   636.0s  Hybrid GWO-ABC (Eq. 12) run 19 
+  [ 100/100]   636.1s  Hybrid GWO-ABC         run 19 
+report: C:\Users\Admin\Hybrid-GWO-ABC-WSN\results\base_paper\README.md

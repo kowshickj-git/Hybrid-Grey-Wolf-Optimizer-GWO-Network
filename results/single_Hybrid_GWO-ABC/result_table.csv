@@ -1,0 +1,12 @@
+,Hybrid GWO-ABC
+FND (rounds),"1,132"
+HND (rounds),"1,146"
+LND (rounds),"1,160"
+Residual Energy (J),28.210
+Energy Consumption (J),21.790
+Throughput (packets),"114,457"
+PDR (ratio),0.9981
+Avg. Cluster Distance (m),21.718
+Avg. CH-BS Distance (m),37.212
+Runtime (s),29.73
+Final Fitness (-),0.2396

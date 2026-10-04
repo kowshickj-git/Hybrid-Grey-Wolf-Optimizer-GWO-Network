@@ -1,0 +1,7 @@
+scenario,proposed variant,fnd %,hnd %,lnd %,node_rounds %,throughput_packets %,pdr %
+BP1_100nodes,Hybrid GWO-ABC (Eq. 12),-0.44,7.25,7.61,6.96,6.85,-0.1
+BP1_100nodes,Hybrid GWO-ABC (multi-objective fitness),-2.05,0.85,2.29,0.84,1.43,0.58
+BP2_160nodes,Hybrid GWO-ABC (Eq. 12),0.99,7.6,4.21,7.27,7.5,0.23
+BP2_160nodes,Hybrid GWO-ABC (multi-objective fitness),-0.28,1.42,-0.43,1.49,2.29,0.79
+BP3_200nodes,Hybrid GWO-ABC (Eq. 12),-1.14,3.18,0.0,2.16,2.19,0.03
+BP3_200nodes,Hybrid GWO-ABC (multi-objective fitness),-3.87,0.55,0.0,0.17,0.33,0.16

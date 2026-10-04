@@ -1,0 +1,61 @@
+metric,label,baseline,higher_is_better,proposed_mean,baseline_mean,improvement_pct,p_value,cliffs_delta,effect,n_pairs,p_holm,significant,verdict
+fnd,FND,Random,True,1131.3333333333333,786.6666666666666,43.813559322033896,0.25,1.0,large,3,1.0,False,no significant difference
+fnd,FND,LEACH,True,1131.3333333333333,898.3333333333334,25.936920222634495,0.25,1.0,large,3,1.0,False,no significant difference
+fnd,FND,GWO,True,1131.3333333333333,1130.6666666666667,0.058962264150929984,1.0,0.1111111111111111,negligible,3,1.0,False,no significant difference
+fnd,FND,ABC,True,1131.3333333333333,1127.6666666666667,0.3251551877032085,0.75,0.1111111111111111,negligible,3,1.0,False,no significant difference
+hnd,HND,Random,True,1142.0,1130.3333333333333,1.0321439103509358,0.25,0.7777777777777778,large,3,1.0,False,no significant difference
+hnd,HND,LEACH,True,1142.0,1100.6666666666667,3.7552998182919373,0.25,1.0,large,3,1.0,False,no significant difference
+hnd,HND,GWO,True,1142.0,1141.3333333333333,0.058411214953277675,1.0,0.1111111111111111,negligible,3,1.0,False,no significant difference
+hnd,HND,ABC,True,1142.0,1141.6666666666667,0.02919708029196416,1.0,0.1111111111111111,negligible,3,1.0,False,no significant difference
+lnd,LND,Random,True,1164.6666666666667,1327.3333333333333,-12.255148166750367,0.25,-1.0,large,3,1.0,False,no significant difference
+lnd,LND,LEACH,True,1164.6666666666667,1269.0,-8.221696874179138,0.25,-1.0,large,3,1.0,False,no significant difference
+lnd,LND,GWO,True,1164.6666666666667,1166.6666666666667,-0.17142857142857143,0.75,-0.3333333333333333,medium,3,1.0,False,no significant difference
+lnd,LND,ABC,True,1164.6666666666667,1166.3333333333333,-0.14289797084880096,1.0,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+node_rounds,Node-rounds,Random,True,114225.0,111089.33333333333,2.8226532400350512,0.25,1.0,large,3,1.0,False,no significant difference
+node_rounds,Node-rounds,LEACH,True,114225.0,110039.66666666667,3.803476928016862,0.25,1.0,large,3,1.0,False,no significant difference
+node_rounds,Node-rounds,GWO,True,114225.0,114191.66666666667,0.02919068817046937,0.75,0.1111111111111111,negligible,3,1.0,False,no significant difference
+node_rounds,Node-rounds,ABC,True,114225.0,114200.33333333333,0.021599469937336597,1.0,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+residual_energy_cp,Residual Energy,Random,True,28.1653787588056,27.775378727282586,1.4041213815742923,0.25,1.0,large,3,1.0,False,no significant difference
+residual_energy_cp,Residual Energy,LEACH,True,28.1653787588056,27.40540056218063,2.7730964738159485,0.25,1.0,large,3,1.0,False,no significant difference
+residual_energy_cp,Residual Energy,GWO,True,28.1653787588056,28.164186450062516,0.004233421566059994,1.0,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+residual_energy_cp,Residual Energy,ABC,True,28.1653787588056,28.17557726407918,-0.03619626025048299,0.5,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+energy_consumed_cp,Energy Consumption,Random,False,21.8346212411944,22.224621272717414,1.7548106972773032,0.25,1.0,large,3,1.0,False,no significant difference
+energy_consumed_cp,Energy Consumption,LEACH,False,21.8346212411944,22.59459943781937,3.3635391444598834,0.25,1.0,large,3,1.0,False,no significant difference
+energy_consumed_cp,Energy Consumption,GWO,False,21.8346212411944,21.835813549937484,0.0054603357935601475,1.0,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+energy_consumed_cp,Energy Consumption,ABC,False,21.8346212411944,21.82442273592082,-0.0467297824871963,0.5,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+throughput_packets,Throughput,Random,True,114098.0,110160.66666666667,3.5741734799474663,0.25,1.0,large,3,1.0,False,no significant difference
+throughput_packets,Throughput,LEACH,True,114098.0,109057.33333333333,4.6220336703629945,0.25,1.0,large,3,1.0,False,no significant difference
+throughput_packets,Throughput,GWO,True,114098.0,114144.33333333333,-0.04059188220761009,0.75,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+throughput_packets,Throughput,ABC,True,114098.0,114157.0,-0.051683208213250176,0.75,-0.3333333333333333,medium,3,1.0,False,no significant difference
+pdr,PDR,Random,True,0.9980157507464312,0.9907488952454591,0.733470966845923,0.25,1.0,large,3,1.0,False,no significant difference
+pdr,PDR,LEACH,True,0.9980157507464312,0.9901729876143605,0.7920598956114191,0.25,1.0,large,3,1.0,False,no significant difference
+pdr,PDR,GWO,True,0.9980157507464312,0.998712509972172,-0.06976574527540114,0.25,-1.0,large,3,1.0,False,no significant difference
+pdr,PDR,ABC,True,0.9980157507464312,0.9987444589143971,-0.07296242411777362,0.25,-1.0,large,3,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,Random,False,22.040774848743393,24.86143205898664,11.345513820567174,0.25,1.0,large,3,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,LEACH,False,22.040774848743393,26.917667658595935,18.117813443971052,0.25,1.0,large,3,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,GWO,False,22.040774848743393,22.043866237085457,0.014023802852074121,1.0,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+avg_cluster_distance,Avg. Cluster Distance,ABC,False,22.040774848743393,21.954761903829013,-0.39177352635912105,0.25,-0.3333333333333333,medium,3,1.0,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,Random,False,38.243842543248114,38.41921907184372,0.4564812425459593,0.25,0.3333333333333333,medium,3,1.0,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,LEACH,False,38.243842543248114,38.63173871289453,1.0040867498333568,0.25,0.3333333333333333,medium,3,1.0,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,GWO,False,38.243842543248114,38.229046351885074,-0.03870405562002743,1.0,0.1111111111111111,negligible,3,1.0,False,no significant difference
+avg_ch_bs_distance,Avg. CH-BS Distance,ABC,False,38.243842543248114,38.208636250707634,-0.09214223797329965,0.75,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+cluster_imbalance,Cluster Imbalance,Random,False,0.14696640457535204,0.4776730680685024,69.2328468151619,0.25,1.0,large,3,1.0,False,no significant difference
+cluster_imbalance,Cluster Imbalance,LEACH,False,0.14696640457535204,0.44806633617132935,67.19985575547551,0.25,1.0,large,3,1.0,False,no significant difference
+cluster_imbalance,Cluster Imbalance,GWO,False,0.14696640457535204,0.17181065228915346,14.460248758027594,0.25,1.0,large,3,1.0,False,no significant difference
+cluster_imbalance,Cluster Imbalance,ABC,False,0.14696640457535204,0.15336052637606148,4.169340019758516,0.25,0.5555555555555556,large,3,1.0,False,no significant difference
+final_fitness,Final Fitness,Random,False,0.24112633583852147,0.294836848078756,18.21702836339083,0.25,1.0,large,3,1.0,False,no significant difference
+final_fitness,Final Fitness,LEACH,False,0.24112633583852147,1.2719672106823883,81.04303838861055,0.25,1.0,large,3,1.0,False,no significant difference
+final_fitness,Final Fitness,GWO,False,0.24112633583852147,0.24415835193062252,1.2418236231225026,0.25,0.3333333333333333,medium,3,1.0,False,no significant difference
+final_fitness,Final Fitness,ABC,False,0.24112633583852147,0.24273251563271006,0.6617077197102736,1.0,-0.1111111111111111,negligible,3,1.0,False,no significant difference
+runtime,Runtime,Random,False,78.24730083330603,0.49542793331299134,-15693.881525826793,0.25,-1.0,large,3,1.0,False,no significant difference
+runtime,Runtime,LEACH,False,78.24730083330603,0.050451666599353,-154993.58978105488,0.25,-1.0,large,3,1.0,False,no significant difference
+runtime,Runtime,GWO,False,78.24730083330603,40.787613633319175,-91.84084054720535,0.25,-1.0,large,3,1.0,False,no significant difference
+runtime,Runtime,ABC,False,78.24730083330603,66.48571896667515,-17.690388326139892,0.25,-1.0,large,3,1.0,False,no significant difference
+runtime_per_round,Runtime / round,Random,False,67.18500970581947,0.3731932885098989,-17902.73793081287,0.25,-1.0,large,3,1.0,False,no significant difference
+runtime_per_round,Runtime / round,LEACH,False,67.18500970581947,0.03973411769684106,-168986.45164445366,0.25,-1.0,large,3,1.0,False,no significant difference
+runtime_per_round,Runtime / round,GWO,False,67.18500970581947,34.960971584977365,-92.1714605171004,0.25,-1.0,large,3,1.0,False,no significant difference
+runtime_per_round,Runtime / round,ABC,False,67.18500970581947,57.00309457374453,-17.862039259820648,0.25,-1.0,large,3,1.0,False,no significant difference
+evaluations,Fitness Evaluations,Random,False,730596.6666666666,0.0,,0.25,-1.0,large,3,1.0,False,no significant difference
+evaluations,Fitness Evaluations,LEACH,False,730596.6666666666,0.0,,0.25,-1.0,large,3,1.0,False,no significant difference
+evaluations,Fitness Evaluations,GWO,False,730596.6666666666,723333.3333333334,-1.0041474654377773,0.25,-0.7777777777777778,large,3,1.0,False,no significant difference
+evaluations,Fitness Evaluations,ABC,False,730596.6666666666,727905.6666666666,-0.3696907612112742,0.75,-0.1111111111111111,negligible,3,1.0,False,no significant difference

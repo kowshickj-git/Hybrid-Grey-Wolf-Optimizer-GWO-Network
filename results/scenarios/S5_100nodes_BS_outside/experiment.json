@@ -1,0 +1,30 @@
+{
+  "title": "Scenario S5_100nodes_BS_outside",
+  "description": "100 nodes, 100x100 m, BS outside the field (50, 175)",
+  "algorithms": [
+    "LEACH",
+    "GWO",
+    "ABC",
+    "Hybrid GWO-ABC"
+  ],
+  "runs": 10,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "proposed": "Hybrid GWO-ABC",
+  "created": "2026-10-04T07:57:10",
+  "elapsed_s": 235.4,
+  "python": "3.12.10",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed_rule": "run r uses deployment and algorithm seed config.seed + r"
+}

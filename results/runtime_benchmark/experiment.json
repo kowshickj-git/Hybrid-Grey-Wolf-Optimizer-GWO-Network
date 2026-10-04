@@ -1,0 +1,27 @@
+{
+  "title": "Runtime benchmark",
+  "description": "Sequential single-process CH-selection timing, first 100 rounds, sizes [100, 200, 300]",
+  "algorithms": [
+    "LEACH",
+    "GWO",
+    "ABC",
+    "Hybrid GWO-ABC"
+  ],
+  "runs": 5,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "proposed": null,
+  "created": "2026-10-04T10:13:10",
+  "elapsed_s": 0.0,
+  "python": "3.12.10",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed_rule": "run r uses deployment and algorithm seed config.seed + r",
+  "cpu_count": 12,
+  "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel"
+}

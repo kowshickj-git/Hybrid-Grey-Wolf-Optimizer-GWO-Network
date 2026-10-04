@@ -1,0 +1,91 @@
+﻿  n=100 seed=42 DEAI-PSO            13.99 ms/round
+  n=100 seed=42 Hybrid GWO-ABC (Eq. 12)    28.26 ms/round
+  n=100 seed=42 GWO (Eq. 12)        13.02 ms/round
+  n=100 seed=42 ABC (Eq. 12)        20.34 ms/round
+  n=100 seed=42 Hybrid GWO-ABC      28.24 ms/round
+  n=100 seed=42 LEACH                0.01 ms/round
+  n=100 seed=43 Hybrid GWO-ABC (Eq. 12)    26.45 ms/round
+  n=100 seed=43 GWO (Eq. 12)        13.09 ms/round
+  n=100 seed=43 ABC (Eq. 12)        20.98 ms/round
+  n=100 seed=43 Hybrid GWO-ABC      28.23 ms/round
+  n=100 seed=43 LEACH                0.01 ms/round
+  n=100 seed=43 DEAI-PSO            14.73 ms/round
+  n=100 seed=44 GWO (Eq. 12)        13.12 ms/round
+  n=100 seed=44 ABC (Eq. 12)        19.83 ms/round
+  n=100 seed=44 Hybrid GWO-ABC      27.31 ms/round
+  n=100 seed=44 LEACH                0.01 ms/round
+  n=100 seed=44 DEAI-PSO            15.30 ms/round
+  n=100 seed=44 Hybrid GWO-ABC (Eq. 12)    27.48 ms/round
+  n=100 seed=45 ABC (Eq. 12)        20.57 ms/round
+  n=100 seed=45 Hybrid GWO-ABC      27.51 ms/round
+  n=100 seed=45 LEACH                0.01 ms/round
+  n=100 seed=45 DEAI-PSO            14.30 ms/round
+  n=100 seed=45 Hybrid GWO-ABC (Eq. 12)    26.88 ms/round
+  n=100 seed=45 GWO (Eq. 12)        13.00 ms/round
+  n=100 seed=46 Hybrid GWO-ABC      29.20 ms/round
+  n=100 seed=46 LEACH                0.01 ms/round
+  n=100 seed=46 DEAI-PSO            15.01 ms/round
+  n=100 seed=46 Hybrid GWO-ABC (Eq. 12)    27.06 ms/round
+  n=100 seed=46 GWO (Eq. 12)        13.03 ms/round
+  n=100 seed=46 ABC (Eq. 12)        21.44 ms/round
+  n=160 seed=42 DEAI-PSO            32.54 ms/round
+  n=160 seed=42 Hybrid GWO-ABC (Eq. 12)    36.85 ms/round
+  n=160 seed=42 GWO (Eq. 12)        20.41 ms/round
+  n=160 seed=42 ABC (Eq. 12)        26.52 ms/round
+  n=160 seed=42 Hybrid GWO-ABC      32.44 ms/round
+  n=160 seed=42 LEACH                0.01 ms/round
+  n=160 seed=43 Hybrid GWO-ABC (Eq. 12)    32.84 ms/round
+  n=160 seed=43 GWO (Eq. 12)        21.36 ms/round
+  n=160 seed=43 ABC (Eq. 12)        26.89 ms/round
+  n=160 seed=43 Hybrid GWO-ABC      38.31 ms/round
+  n=160 seed=43 LEACH                0.01 ms/round
+  n=160 seed=43 DEAI-PSO            38.40 ms/round
+  n=160 seed=44 GWO (Eq. 12)        23.13 ms/round
+  n=160 seed=44 ABC (Eq. 12)        25.29 ms/round
+  n=160 seed=44 Hybrid GWO-ABC      31.45 ms/round
+  n=160 seed=44 LEACH                0.01 ms/round
+  n=160 seed=44 DEAI-PSO            31.37 ms/round
+  n=160 seed=44 Hybrid GWO-ABC (Eq. 12)    31.60 ms/round
+  n=160 seed=45 ABC (Eq. 12)        26.11 ms/round
+  n=160 seed=45 Hybrid GWO-ABC      32.08 ms/round
+  n=160 seed=45 LEACH                0.02 ms/round
+  n=160 seed=45 DEAI-PSO            29.07 ms/round
+  n=160 seed=45 Hybrid GWO-ABC (Eq. 12)    31.27 ms/round
+  n=160 seed=45 GWO (Eq. 12)        19.25 ms/round
+  n=160 seed=46 Hybrid GWO-ABC      31.30 ms/round
+  n=160 seed=46 LEACH                0.01 ms/round
+  n=160 seed=46 DEAI-PSO            30.05 ms/round
+  n=160 seed=46 Hybrid GWO-ABC (Eq. 12)    37.26 ms/round
+  n=160 seed=46 GWO (Eq. 12)        19.16 ms/round
+  n=160 seed=46 ABC (Eq. 12)        24.18 ms/round
+  n=200 seed=42 DEAI-PSO            41.28 ms/round
+  n=200 seed=42 Hybrid GWO-ABC (Eq. 12)    33.74 ms/round
+  n=200 seed=42 GWO (Eq. 12)        20.39 ms/round
+  n=200 seed=42 ABC (Eq. 12)        28.85 ms/round
+  n=200 seed=42 Hybrid GWO-ABC      34.22 ms/round
+  n=200 seed=42 LEACH                0.01 ms/round
+  n=200 seed=43 Hybrid GWO-ABC (Eq. 12)    32.04 ms/round
+  n=200 seed=43 GWO (Eq. 12)        18.81 ms/round
+  n=200 seed=43 ABC (Eq. 12)        25.51 ms/round
+  n=200 seed=43 Hybrid GWO-ABC      33.55 ms/round
+  n=200 seed=43 LEACH                0.01 ms/round
+  n=200 seed=43 DEAI-PSO            33.75 ms/round
+  n=200 seed=44 GWO (Eq. 12)        19.14 ms/round
+  n=200 seed=44 ABC (Eq. 12)        26.08 ms/round
+  n=200 seed=44 Hybrid GWO-ABC      33.94 ms/round
+  n=200 seed=44 LEACH                0.01 ms/round
+  n=200 seed=44 DEAI-PSO            32.64 ms/round
+  n=200 seed=44 Hybrid GWO-ABC (Eq. 12)    32.85 ms/round
+  n=200 seed=45 ABC (Eq. 12)        26.57 ms/round
+  n=200 seed=45 Hybrid GWO-ABC      34.15 ms/round
+  n=200 seed=45 LEACH                0.01 ms/round
+  n=200 seed=45 DEAI-PSO            41.84 ms/round
+  n=200 seed=45 Hybrid GWO-ABC (Eq. 12)    33.42 ms/round
+  n=200 seed=45 GWO (Eq. 12)        20.03 ms/round
+  n=200 seed=46 Hybrid GWO-ABC      33.82 ms/round
+  n=200 seed=46 LEACH                0.01 ms/round
+  n=200 seed=46 DEAI-PSO            37.95 ms/round
+  n=200 seed=46 Hybrid GWO-ABC (Eq. 12)    35.62 ms/round
+  n=200 seed=46 GWO (Eq. 12)        19.31 ms/round
+  n=200 seed=46 ABC (Eq. 12)        25.43 ms/round
+report: C:\Users\Admin\Hybrid-GWO-ABC-WSN\results\base_paper\README.md

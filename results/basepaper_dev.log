@@ -1,0 +1,122 @@
+﻿[Base paper / dev pilot] 120 simulations on development seeds 9000..9004
+  [   1/120]    37.2s  DEAI-PSO               run 0 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=normalised'}
+  [   2/120]    37.9s  DEAI-PSO               run 2 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=normalised'}
+  [   3/120]    38.1s  DEAI-PSO               run 0 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=metres'}
+  [   4/120]    38.2s  DEAI-PSO               run 4 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=normalised'}
+  [   5/120]    38.6s  DEAI-PSO               run 1 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=normalised'}
+  [   6/120]    39.0s  DEAI-PSO               run 4 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=metres'}
+  [   7/120]    39.2s  DEAI-PSO               run 0 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=normalised'}
+  [   8/120]    39.4s  DEAI-PSO               run 3 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=metres'}
+  [   9/120]    39.4s  DEAI-PSO               run 2 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=metres'}
+  [  10/120]    39.6s  DEAI-PSO               run 3 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=normalised'}
+  [  11/120]    40.1s  DEAI-PSO               run 1 {'scenario': 'BP1_100nodes', 'setting': 'a=0.2, d=metres'}
+  [  12/120]    74.5s  DEAI-PSO               run 1 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=normalised'}
+  [  13/120]    75.0s  DEAI-PSO               run 4 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=normalised'}
+  [  14/120]    75.4s  DEAI-PSO               run 2 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=normalised'}
+  [  15/120]    76.4s  DEAI-PSO               run 0 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=metres'}
+  [  16/120]    76.7s  DEAI-PSO               run 3 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=normalised'}
+  [  17/120]    77.1s  DEAI-PSO               run 1 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=normalised'}
+  [  18/120]    77.2s  DEAI-PSO               run 4 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=metres'}
+  [  19/120]    77.6s  DEAI-PSO               run 2 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=metres'}
+  [  20/120]    77.8s  DEAI-PSO               run 1 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=metres'}
+  [  21/120]    78.2s  DEAI-PSO               run 0 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=normalised'}
+  [  22/120]    78.3s  DEAI-PSO               run 3 {'scenario': 'BP1_100nodes', 'setting': 'a=0.5, d=metres'}
+  [  23/120]    80.3s  LEACH                  run 0 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  24/120]    82.5s  LEACH                  run 1 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  25/120]   111.1s  DEAI-PSO               run 4 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=normalised'}
+  [  26/120]   111.4s  DEAI-PSO               run 3 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=normalised'}
+  [  27/120]   113.0s  DEAI-PSO               run 4 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=metres'}
+  [  28/120]   113.1s  LEACH                  run 2 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  29/120]   113.4s  DEAI-PSO               run 3 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=metres'}
+  [  30/120]   113.4s  DEAI-PSO               run 2 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=normalised'}
+  [  31/120]   114.2s  DEAI-PSO               run 1 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=metres'}
+  [  32/120]   114.8s  LEACH                  run 3 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  33/120]   115.0s  DEAI-PSO               run 0 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=metres'}
+  [  34/120]   115.6s  LEACH                  run 4 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  35/120]   117.3s  DEAI-PSO               run 2 {'scenario': 'BP1_100nodes', 'setting': 'a=0.8, d=metres'}
+  [  36/120]   174.6s  Hybrid GWO-ABC         run 1 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  37/120]   176.6s  Hybrid GWO-ABC         run 0 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  38/120]   182.7s  Hybrid GWO-ABC         run 2 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  39/120]   182.9s  DEAI-PSO               run 2 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=normalised'}
+  [  40/120]   184.3s  DEAI-PSO               run 0 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=normalised'}
+  [  41/120]   187.2s  DEAI-PSO               run 3 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=normalised'}
+  [  42/120]   187.3s  DEAI-PSO               run 4 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=normalised'}
+  [  43/120]   189.7s  DEAI-PSO               run 0 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=metres'}
+  [  44/120]   192.4s  DEAI-PSO               run 1 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=normalised'}
+  [  45/120]   219.5s  Hybrid GWO-ABC         run 4 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  46/120]   219.8s  Hybrid GWO-ABC         run 3 {'scenario': 'BP1_100nodes', 'setting': 'default'}
+  [  47/120]   253.9s  DEAI-PSO               run 2 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=metres'}
+  [  48/120]   257.7s  DEAI-PSO               run 1 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=metres'}
+  [  49/120]   265.3s  DEAI-PSO               run 4 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=metres'}
+  [  50/120]   267.4s  DEAI-PSO               run 0 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=normalised'}
+  [  51/120]   268.9s  DEAI-PSO               run 3 {'scenario': 'BP2_160nodes', 'setting': 'a=0.2, d=metres'}
+  [  52/120]   269.1s  DEAI-PSO               run 2 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=normalised'}
+  [  53/120]   276.0s  DEAI-PSO               run 3 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=normalised'}
+  [  54/120]   276.8s  DEAI-PSO               run 1 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=normalised'}
+  [  55/120]   280.9s  DEAI-PSO               run 4 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=normalised'}
+  [  56/120]   311.0s  DEAI-PSO               run 1 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=metres'}
+  [  57/120]   314.4s  DEAI-PSO               run 0 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=metres'}
+  [  58/120]   337.5s  DEAI-PSO               run 2 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=metres'}
+  [  59/120]   345.9s  DEAI-PSO               run 3 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=metres'}
+  [  60/120]   350.3s  DEAI-PSO               run 4 {'scenario': 'BP2_160nodes', 'setting': 'a=0.5, d=metres'}
+  [  61/120]   351.3s  DEAI-PSO               run 0 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=normalised'}
+  [  62/120]   352.0s  DEAI-PSO               run 1 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=normalised'}
+  [  63/120]   354.1s  LEACH                  run 0 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  64/120]   356.0s  DEAI-PSO               run 2 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=normalised'}
+  [  65/120]   356.8s  LEACH                  run 1 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  66/120]   359.6s  LEACH                  run 2 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  67/120]   363.5s  DEAI-PSO               run 4 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=normalised'}
+  [  68/120]   366.1s  LEACH                  run 3 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  69/120]   367.5s  DEAI-PSO               run 0 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=metres'}
+  [  70/120]   368.5s  DEAI-PSO               run 3 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=normalised'}
+  [  71/120]   370.2s  LEACH                  run 4 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  72/120]   390.4s  DEAI-PSO               run 1 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=metres'}
+  [  73/120]   397.7s  DEAI-PSO               run 2 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=metres'}
+  [  74/120]   423.9s  DEAI-PSO               run 3 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=metres'}
+  [  75/120]   428.9s  DEAI-PSO               run 4 {'scenario': 'BP2_160nodes', 'setting': 'a=0.8, d=metres'}
+  [  76/120]   457.6s  DEAI-PSO               run 0 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=normalised'}
+  [  77/120]   460.7s  DEAI-PSO               run 1 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=normalised'}
+  [  78/120]   475.5s  Hybrid GWO-ABC         run 1 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  79/120]   476.0s  Hybrid GWO-ABC         run 0 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  80/120]   478.3s  Hybrid GWO-ABC         run 2 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  81/120]   479.3s  Hybrid GWO-ABC         run 3 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  82/120]   484.6s  Hybrid GWO-ABC         run 4 {'scenario': 'BP2_160nodes', 'setting': 'default'}
+  [  83/120]   490.0s  DEAI-PSO               run 2 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=normalised'}
+  [  84/120]   500.5s  DEAI-PSO               run 3 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=normalised'}
+  [  85/120]   517.4s  DEAI-PSO               run 4 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=normalised'}
+  [  86/120]   526.9s  DEAI-PSO               run 0 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=metres'}
+  [  87/120]   558.2s  DEAI-PSO               run 1 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=metres'}
+  [  88/120]   568.6s  DEAI-PSO               run 2 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=metres'}
+  [  89/120]   575.8s  DEAI-PSO               run 4 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=metres'}
+  [  90/120]   577.3s  DEAI-PSO               run 1 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=normalised'}
+  [  91/120]   577.7s  DEAI-PSO               run 0 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=normalised'}
+  [  92/120]   581.8s  DEAI-PSO               run 3 {'scenario': 'BP3_200nodes', 'setting': 'a=0.2, d=metres'}
+  [  93/120]   590.8s  DEAI-PSO               run 2 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=normalised'}
+  [  94/120]   594.7s  DEAI-PSO               run 3 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=normalised'}
+  [  95/120]   597.9s  DEAI-PSO               run 4 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=normalised'}
+  [  96/120]   615.4s  DEAI-PSO               run 0 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=metres'}
+  [  97/120]   624.4s  DEAI-PSO               run 1 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=metres'}
+  [  98/120]   664.7s  DEAI-PSO               run 2 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=metres'}
+  [  99/120]   668.6s  DEAI-PSO               run 0 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=normalised'}
+  [ 100/120]   676.1s  DEAI-PSO               run 3 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=metres'}
+  [ 101/120]   676.1s  DEAI-PSO               run 1 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=normalised'}
+  [ 102/120]   676.6s  DEAI-PSO               run 4 {'scenario': 'BP3_200nodes', 'setting': 'a=0.5, d=metres'}
+  [ 103/120]   679.2s  LEACH                  run 0 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 104/120]   682.2s  LEACH                  run 1 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 105/120]   684.7s  DEAI-PSO               run 2 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=normalised'}
+  [ 106/120]   687.8s  LEACH                  run 2 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 107/120]   688.7s  DEAI-PSO               run 0 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=metres'}
+  [ 108/120]   691.5s  LEACH                  run 3 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 109/120]   691.7s  DEAI-PSO               run 4 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=normalised'}
+  [ 110/120]   693.3s  DEAI-PSO               run 3 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=normalised'}
+  [ 111/120]   694.6s  LEACH                  run 4 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 112/120]   705.7s  DEAI-PSO               run 1 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=metres'}
+  [ 113/120]   716.2s  DEAI-PSO               run 2 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=metres'}
+  [ 114/120]   741.4s  DEAI-PSO               run 4 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=metres'}
+  [ 115/120]   744.1s  DEAI-PSO               run 3 {'scenario': 'BP3_200nodes', 'setting': 'a=0.8, d=metres'}
+  [ 116/120]   764.5s  Hybrid GWO-ABC         run 0 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 117/120]   766.1s  Hybrid GWO-ABC         run 1 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 118/120]   770.2s  Hybrid GWO-ABC         run 2 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 119/120]   770.3s  Hybrid GWO-ABC         run 3 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+  [ 120/120]   772.5s  Hybrid GWO-ABC         run 4 {'scenario': 'BP3_200nodes', 'setting': 'default'}
+chosen DEAI-PSO setting: {'deai_pso.a': 0.8, 'deai_pso.normalise_distance': False, 'label': 'a=0.8, d=metres'}

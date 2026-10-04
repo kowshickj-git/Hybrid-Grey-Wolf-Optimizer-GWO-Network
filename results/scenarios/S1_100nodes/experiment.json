@@ -1,0 +1,41 @@
+{
+  "title": "Scenario S1_100nodes",
+  "description": "100 nodes, 100x100 m, BS at the centre (50, 50)",
+  "algorithms": [
+    "Random",
+    "LEACH",
+    "GWO",
+    "ABC",
+    "Hybrid GWO-ABC"
+  ],
+  "runs": 20,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "proposed": "Hybrid GWO-ABC",
+  "created": "2026-10-04T12:24:04",
+  "elapsed_s": 579.1,
+  "python": "3.12.10",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed_rule": "run r uses deployment and algorithm seed config.seed + r"
+}
