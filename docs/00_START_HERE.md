@@ -50,7 +50,10 @@ reports are in `results/<experiment>/report.md`.
 
 ## The commands you need first
 
-Open a terminal in the project folder (see [01_INSTALL_AND_RUN.md](01_INSTALL_AND_RUN.md) for the full
+**Easiest (Windows):** double-click **`install.bat`** once, then double-click **`run.bat`** and choose from the
+menu (open the simulator window, run a simulation, compare the algorithms, run the tests …).
+
+**By hand:** open a terminal in the project folder (see [01_INSTALL_AND_RUN.md](01_INSTALL_AND_RUN.md) for the full
 step-by-step guide) and type:
 
 ```powershell
@@ -63,7 +66,9 @@ python main.py                                # open the window (GUI) and press 
 
 ```text
 Hybrid-GWO-ABC-WSN/
-├── main.py              ← start here: every command (GUI, simulate, compare, scenarios, …)
+├── install.bat          ← double-click once: installs everything (Windows)
+├── run.bat              ← double-click: menu to run the project (Windows)
+├── main.py              ← every command (GUI, simulate, compare, scenarios, …)
 ├── config.py            ← every parameter and its default value
 ├── models/              ← sensor node, network, radio energy model
 ├── simulation/          ← the round loop, cluster formation, data transmission

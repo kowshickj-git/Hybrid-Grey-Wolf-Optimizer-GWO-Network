@@ -7,7 +7,7 @@ Matplotlib 3.11.2, SciPy 1.18.1, pytest 9.1.1). "Evidence" tells you where to lo
 |---|---|:-:|---|
 | 1 | Project implemented | ✅ | `main.py` + `models/`, `simulation/`, `algorithms/`, `evaluation/`, `visualization/`, `gui/`, `experiments/` |
 | 2 | MATLAB removed from execution requirements | ✅ | no `.m`/`.mat` files; `requirements.txt` lists only Python packages; MATLAB appears only in text about the base paper's own tool |
-| 3 | Python environment ready | ✅ | `requirements.txt`; install steps in [01_INSTALL_AND_RUN.md](01_INSTALL_AND_RUN.md) (Python ≥ 3.10, venv optional) |
+| 3 | Python environment ready | ✅ | `requirements.txt`; one-click `install.bat` (finds/installs Python, creates `.venv`, installs libraries, runs the tests — verified: 158 s, tests passed) and `run.bat` menu; manual steps in [01_INSTALL_AND_RUN.md](01_INSTALL_AND_RUN.md) |
 | 4 | WSN simulation working | ✅ | `python main.py simulate` (≈ 35 s) → `results/single_Hybrid_GWO-ABC/report.md`; GUI `python main.py` |
 | 5 | GWO implemented | ✅ | `algorithms/gwo.py` (α/β/δ, a: 2 → 0, A, C, sigmoid, repair); tests `test_gwo_*`, `test_gwo_step_matches_worked_example` |
 | 6 | ABC implemented | ✅ | `algorithms/abc.py` (employed, onlooker, scout, neighbour moves); tests `test_abc_*` |

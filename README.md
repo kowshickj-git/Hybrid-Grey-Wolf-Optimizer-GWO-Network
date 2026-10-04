@@ -18,6 +18,12 @@ lifetime, energy, throughput, delivery ratio, clustering quality, convergence an
 
 ## 1. Quick start
 
+**Windows, no typing:** download the project (green **Code** button → **Download ZIP**, then *Extract All*),
+double-click **`install.bat`** once (finds or installs Python, creates `.venv`, installs the libraries, runs the
+tests), then double-click **`run.bat`** for a menu (simulator window, simulation, comparison, tests, experiments).
+
+**Any system, by hand:**
+
 ```bash
 python -m pip install -r requirements.txt
 
@@ -50,6 +56,7 @@ Windows/macOS installers). Runs on a normal laptop; experiments use all cores bu
 
 ```text
 Hybrid-GWO-ABC-WSN/
+├── install.bat, run.bat         Windows one-click installer (.venv + libraries + tests) and run menu
 ├── main.py                      CLI: gui | simulate | compare | scenarios | ablation | sensitivity | convergence | all | reproduce
 ├── config.py                    every parameter (dataclasses, JSON save/load, dotted overrides, validation)
 ├── models/                      node.py (SensorNode), network.py (deployment, state, death), energy_model.py (radio model)

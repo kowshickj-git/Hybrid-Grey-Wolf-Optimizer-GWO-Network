@@ -1,0 +1,3 @@
+# Windows batch files must keep CRLF line endings on every computer (clone or ZIP download)
+*.bat -text
+*.cmd -text

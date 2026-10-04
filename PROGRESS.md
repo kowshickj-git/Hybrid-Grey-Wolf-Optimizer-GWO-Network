@@ -1,7 +1,9 @@
 # Project progress — Hybrid GWO-ABC CH selection for WSNs
 
-**Overall: 46 / 46 tasks done (100 %)**  `████████████████████`
-_Last updated: 2026-10-04 12:45 — project complete. Start reading at `docs/00_START_HERE.md`._
+**Overall: 48 / 48 tasks done (100 %)**  `████████████████████`
+_Last updated: 2026-10-04 — project complete and published on GitHub
+(<https://github.com/kowshickj-git/Hybrid-Grey-Wolf-Optimizer-GWO-Network>). Start reading at
+`docs/00_START_HERE.md`; on Windows double-click `install.bat`, then `run.bat`._
 
 Legend: ✅ done · 🔄 in progress · ⬜ to do
 
@@ -62,7 +64,7 @@ scenario × metric comparisons, significantly worse in 1, no significant differe
 `*` significant (Wilcoxon, Holm-corrected). Most of the gain comes from using fewer, better CHs (≈ 5 instead of 10 in
 BP1); with the CH count fixed at 10 % the hybrid still wins, but only by ≈ 0.4 %.
 
-## Part C — Beginner documentation and final polish (14 / 14) ✅
+## Part C — Beginner documentation and final polish (16 / 16) ✅
 
 | # | Task | Status | Evidence |
 |---|---|:-:|---|
@@ -80,6 +82,8 @@ BP1); with the CH count fixed at 10 % the hybrid still wins, but only by ≈ 0.4
 | C12 | 30–60 s explanation, technical explanation, viva Q&A | ✅ | `docs/09_PRESENTATION_AND_VIVA.md` |
 | C13 | Final checklist with evidence | ✅ | `docs/10_FINAL_CHECKLIST.md` |
 | C14 | Safety/usability: quick test writes to `results_quick/`, `scenarios --only`, `diagrams` command | ✅ | `main.py`, `experiments/experiment_runner.py` |
+| C15 | Published on GitHub (all 709 files, verified) | ✅ | <https://github.com/kowshickj-git/Hybrid-Grey-Wolf-Optimizer-GWO-Network> |
+| C16 | One-click Windows installer and run menu (tested: install 158 s, all tests passed) | ✅ | `install.bat`, `run.bat` |
 
 ## Final
 

@@ -144,8 +144,9 @@ def test_metric_and_statistics_examples():
     assert holm([0.01, 0.04, 0.03]) == pytest.approx([0.03, 0.06, 0.06])
     assert cliffs_delta([3, 4], [1, 3]) == pytest.approx(0.75)
     base = np.linspace(10, 12, 20)
-    assert paired_test(base[:5] + 1, base[:5]) == pytest.approx(0.0625)    # smallest p possible with 5 runs
-    assert paired_test(base + 1, base) < 1e-4                              # 20 wins out of 20
+    gains = np.arange(1, 21) / 10                                          # distinct, all positive differences
+    assert paired_test(base[:5] + gains[:5], base[:5]) == pytest.approx(0.0625)   # smallest p possible, 5 runs
+    assert paired_test(base + gains, base) < 1e-4                          # 20 wins out of 20
 
 
 def test_documentation_figures_are_generated(tmp_path):

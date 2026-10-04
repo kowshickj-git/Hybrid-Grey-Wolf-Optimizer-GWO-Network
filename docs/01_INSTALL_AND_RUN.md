@@ -9,6 +9,39 @@ it exactly. Commands are typed in a **terminal** (PowerShell) that is open **in 
 
 ---
 
+## The fastest way: one-click installer (`install.bat` + `run.bat`)
+
+1. **Get the project.** On <https://github.com/kowshickj-git/Hybrid-Grey-Wolf-Optimizer-GWO-Network> click the green
+   **Code** button → **Download ZIP**. Right-click the downloaded ZIP → **Extract All…** → **Extract**.
+   (With Git: `git clone https://github.com/kowshickj-git/Hybrid-Grey-Wolf-Optimizer-GWO-Network.git`.)
+2. **Install.** Open the extracted folder and double-click **`install.bat`**. If Windows shows *"Windows protected
+   your PC"*, click **More info → Run anyway** (the file comes from the internet, so Windows asks once).
+   The installer:
+   * looks for Python 3.10 or newer — if there is none, it offers to install Python 3.12 for you (via winget);
+   * creates a private environment in the folder `.venv` (other Python projects are not affected);
+   * installs NumPy, pandas, Matplotlib, SciPy and pytest (about 100 MB, a few minutes the first time);
+   * runs the 93 automatic tests and shows `Automatic tests: passed`.
+3. **Run.** Double-click **`run.bat`** and type a number:
+
+```text
+   1  Open the simulator window - GUI
+   2  One simulation of the proposed Hybrid GWO-ABC      ~35 s
+   3  Compare Random, LEACH, GWO, ABC and Hybrid on 3 networks   ~2 min
+   4  Run the automatic tests                           ~15 s
+   5  Main comparison, scenario S1, 20 networks        ~12 min
+   6  Comparison with the base paper                 ~1 h 20 min
+   7  Redraw the documentation diagrams                 ~10 s
+   8  Open the beginner guide in the web browser
+   9  Open the results folder
+   0  Exit
+```
+
+Options 5 and 6 ask before they replace the saved results. `run.bat 4` (with a number) starts that option
+directly. The rest of this guide explains the same things step by step, for when you want to do them by hand or
+something goes wrong.
+
+---
+
 ## Step 1 — Install Python
 
 1. Open <https://www.python.org/downloads/> and download **Python 3.12** for Windows (any version **3.10 or newer**

@@ -3,9 +3,42 @@
 Run every command from the project folder `Hybrid-GWO-ABC-WSN` (the folder that contains `main.py`). If your
 problem is not listed, copy the **last lines** of the error message — they name the problem.
 
-Contents: [Installation](#installation-and-python) · [Running](#running-the-program) · [Graphs and CSV](#graphs-and-csv-files) ·
+Contents: [One-click installer](#the-one-click-installer-installbat-runbat) · [Installation](#installation-and-python) ·
+[Running](#running-the-program) · [Graphs and CSV](#graphs-and-csv-files) ·
 [Parameters](#parameters) · [Speed](#speed-and-long-runs) · [Results](#results-that-look-unexpected) ·
 [Cluster heads](#cluster-head-selection) · [GUI](#the-window-gui) · [Tests](#tests)
+
+---
+
+## The one-click installer (`install.bat`, `run.bat`)
+
+### "Windows protected your PC" when double-clicking `install.bat`
+
+* **Reason:** Windows SmartScreen warns about every script that was downloaded from the internet.
+* **Solution:** click **More info → Run anyway**. (You can read the file first: right-click → *Edit* shows it in
+  Notepad; it only installs Python libraries into the project's own `.venv` folder.)
+
+### `install.bat` says "main.py was not found", or closes immediately
+
+* **Reason:** it was started from inside the ZIP file (Windows shows ZIP contents like a folder, but they are not
+  extracted).
+* **Solution:** right-click the ZIP → **Extract All…**, open the extracted folder, double-click `install.bat` there.
+
+### "Python 3.10 or newer was not found" and winget is missing
+
+* **Reason:** no suitable Python, and the computer has no winget (older Windows 10).
+* **Solution:** install Python 3.12 from <https://www.python.org/downloads/> with **"Add python.exe to PATH"**
+  ticked, then double-click `install.bat` again.
+
+### `install.bat` shows "Automatic tests: FAILED"
+
+* **Reason:** the installation finished, but a check failed (unusual library versions, or files edited by hand).
+* **Solution:** double-click `run.bat`, choose `4` and read the name of the failing test; see [Tests](#tests).
+
+### `run.bat` says "The project is not installed yet"
+
+* **Reason:** the `.venv` folder does not exist (installer not run yet, or the folder was moved/deleted).
+* **Solution:** double-click `install.bat` first (if you moved the project folder, run it again in the new place).
 
 ---
 
